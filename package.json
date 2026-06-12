@@ -21,8 +21,8 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "talha",
-        "repo": "ventrack"
+        "owner": "Talha-Quraishi",
+        "repo": "Ventrack"
       }
     ],
     "win": {
