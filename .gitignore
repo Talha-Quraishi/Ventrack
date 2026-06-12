@@ -1,0 +1,8 @@
+node_modules/
+dist/
+backups/
+vendor-tracker-data.json
+vendor-tracker-backup.json
+*.bak
+*.perf
+.DS_Store

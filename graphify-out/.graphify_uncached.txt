@@ -1,0 +1,16 @@
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\main.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\package.json
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\preload.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor-tracker-backup.json
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\chart.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\chart.umd.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\jspdf.plugin.autotable.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\jspdf.umd.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\lucide.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\tailwind.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor\xlsx.full.min.js
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\.agents\rules\graphify.md
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\.agents\workflows\graphify.md
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\vendor_tracker_native.html
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\ventrack_logo.png
+E:\Backup (24.1.2026) 23.01\KIPL\Html\Vendor-Tracker\ventrack_logo_256.png
