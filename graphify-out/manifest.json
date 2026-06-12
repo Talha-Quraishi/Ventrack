@@ -1,0 +1,92 @@
+{
+  "main.js": {
+    "mtime": 1781283392.1929615,
+    "ast_hash": "628f1ba3ac60929ac29f7a24fef46d5a",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1781283386.888189,
+    "ast_hash": "4b1c7f33ecee3ca1877974dba7b64c8b",
+    "semantic_hash": ""
+  },
+  "preload.js": {
+    "mtime": 1781283394.6573522,
+    "ast_hash": "8122ed48a78a57223626826a352e03ef",
+    "semantic_hash": ""
+  },
+  "vendor-tracker-backup.json": {
+    "mtime": 1780934497.7112503,
+    "ast_hash": "bd1d1e5e1ef9ebf4f32683e30bf59694",
+    "semantic_hash": "bd1d1e5e1ef9ebf4f32683e30bf59694"
+  },
+  "vendor/chart.min.js": {
+    "mtime": 1763387212.0,
+    "ast_hash": "e6452e2b454b091f857a45cce7624eae",
+    "semantic_hash": "e6452e2b454b091f857a45cce7624eae"
+  },
+  "vendor/chart.umd.js": {
+    "mtime": 1763387212.0,
+    "ast_hash": "e6452e2b454b091f857a45cce7624eae",
+    "semantic_hash": "e6452e2b454b091f857a45cce7624eae"
+  },
+  "vendor/jspdf.plugin.autotable.min.js": {
+    "mtime": 1762352822.0,
+    "ast_hash": "1c74f772498ffb37ffefdc20be8be6fb",
+    "semantic_hash": "1c74f772498ffb37ffefdc20be8be6fb"
+  },
+  "vendor/jspdf.umd.min.js": {
+    "mtime": 1762352806.0,
+    "ast_hash": "4b16d1b6023fa7271c62b3dee913c3ca",
+    "semantic_hash": "4b16d1b6023fa7271c62b3dee913c3ca"
+  },
+  "vendor/lucide.min.js": {
+    "mtime": 1762352780.0,
+    "ast_hash": "e8382146f8bed9ff4bb4d37e1a8bce48",
+    "semantic_hash": "e8382146f8bed9ff4bb4d37e1a8bce48"
+  },
+  "vendor/tailwind.min.js": {
+    "mtime": 1762352754.0,
+    "ast_hash": "7a614b9a197e532c00d09a23b0996b5f",
+    "semantic_hash": "7a614b9a197e532c00d09a23b0996b5f"
+  },
+  "vendor/xlsx.full.min.js": {
+    "mtime": 1780830538.1980107,
+    "ast_hash": "84ff27b197f3b3fedc29a3a627b83c54",
+    "semantic_hash": "84ff27b197f3b3fedc29a3a627b83c54"
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1781278913.6616304,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": "a0e4d192b9e2e17256124dbfc8e24e6a"
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1781278913.6626456,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": "637776aa6f7496d069afe7520c845c8a"
+  },
+  "vendor_tracker_native.html": {
+    "mtime": 1781283411.0294967,
+    "ast_hash": "d5b4e60fa0007b0dc24ac5a6e94122c0",
+    "semantic_hash": ""
+  },
+  "ventrack_logo.png": {
+    "mtime": 1781028822.919854,
+    "ast_hash": "57514f49cbc65b60af4c805ec0288ce1",
+    "semantic_hash": "57514f49cbc65b60af4c805ec0288ce1"
+  },
+  "ventrack_logo_256.png": {
+    "mtime": 1781028822.9465551,
+    "ast_hash": "0e17f14c3519cbdda2edf9a0cb6463d2",
+    "semantic_hash": "0e17f14c3519cbdda2edf9a0cb6463d2"
+  },
+  "backups/backup_2026-06-12.json": {
+    "mtime": 1781283038.6955416,
+    "ast_hash": "5f40ecda40fdc9f3d01b76c93aac7f04",
+    "semantic_hash": ""
+  },
+  "vendor-tracker-data.json": {
+    "mtime": 1781283038.694542,
+    "ast_hash": "5f40ecda40fdc9f3d01b76c93aac7f04",
+    "semantic_hash": ""
+  }
+}

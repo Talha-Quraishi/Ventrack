@@ -1,0 +1,832 @@
+{
+  "nodes": [
+    {
+      "id": "rules_graphify_rules",
+      "label": "Graphify Knowledge Graph Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflows_graphify_workflow",
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_orders",
+      "label": "orders",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_save",
+      "label": "save",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_load",
+      "label": "load",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_rendertable",
+      "label": "renderTable",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_showtoast",
+      "label": "showToast",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_showconfirm",
+      "label": "showConfirm",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_validateledger",
+      "label": "validateLedger",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "label": "renderTimeline",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_getfilteredorders",
+      "label": "getFilteredOrders",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+      "label": "rowQuickReceiveAll",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+      "label": "rowQuickDispatchAll",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_deleteorder",
+      "label": "deleteOrder",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_addtxlog",
+      "label": "addTxLog",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_quickreceiveall",
+      "label": "quickReceiveAll",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_quickdispatchall",
+      "label": "quickDispatchAll",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_deletetimelineevent",
+      "label": "deleteTimelineEvent",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_executeexportreport",
+      "label": "executeExportReport",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_generatepdf",
+      "label": "generatePDF",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_generateplainexcel",
+      "label": "generatePlainExcel",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_applyaccentcolor",
+      "label": "applyAccentColor",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_openupdatedrawer",
+      "label": "openUpdateDrawer",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vendor_tracker_vendor_tracker_native_updatedrawerbadges",
+      "label": "updateDrawerBadges",
+      "file_type": "code",
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ventrack_logo",
+      "label": "Vendor Tracker Logo",
+      "file_type": "image",
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Branding asset representing the application identity. It combines a 3D glassmorphic letter V with neon tracking orbits to convey a premium, connected vendor management tool."
+    },
+    {
+      "id": "ventrack_logo_v_brandmark",
+      "label": "V Brandmark",
+      "file_type": "concept",
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The central stylized letter V symbolizes the Ventrack brand identity, representing 'Vendor' and 'Velocity'."
+    },
+    {
+      "id": "ventrack_logo_connectivity_orbits",
+      "label": "Connectivity Orbits",
+      "file_type": "concept",
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The orbital trails and nodes represent dynamic tracking, data network systems, and integration in vendor management."
+    },
+    {
+      "id": "ventrack_logo_glassmorphism_style",
+      "label": "3D Glassmorphism Style",
+      "file_type": "rationale",
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use of translucent, glossy materials and vibrant neon colors to establish a high-end, futuristic aesthetic."
+    },
+    {
+      "id": "ventrack_logo_256_img",
+      "label": "Ventrack Brand Logo 256px",
+      "file_type": "image",
+      "source_file": "ventrack_logo_256.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ventrack_logo_256_branding_concept",
+      "label": "Ventrack Branding Concept",
+      "file_type": "concept",
+      "source_file": "ventrack_logo_256.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The logo features a 3D stylized letter 'V' representing 'Vendor' and 'Ventrack', surrounded by intersecting orbital rings with glowing nodes. This visually represents data tracking, network connectivity, and order flow synchronization in the vendor tracking domain. The violet-to-teal gradient provides a premium and modern aesthetic."
+    }
+  ],
+  "edges": [
+    {
+      "source": "workflows_graphify_workflow",
+      "target": "rules_graphify_rules",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_save",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_rendertable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_save",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_rendertable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deleteorder",
+      "target": "vendor_tracker_vendor_tracker_native_showconfirm",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deleteorder",
+      "target": "vendor_tracker_vendor_tracker_native_save",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deleteorder",
+      "target": "vendor_tracker_vendor_tracker_native_rendertable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deleteorder",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_addtxlog",
+      "target": "vendor_tracker_vendor_tracker_native_validateledger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_addtxlog",
+      "target": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_addtxlog",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_validateledger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_validateledger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_quickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deletetimelineevent",
+      "target": "vendor_tracker_vendor_tracker_native_validateledger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deletetimelineevent",
+      "target": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_deletetimelineevent",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_executeexportreport",
+      "target": "vendor_tracker_vendor_tracker_native_getfilteredorders",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_executeexportreport",
+      "target": "vendor_tracker_vendor_tracker_native_generatepdf",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_executeexportreport",
+      "target": "vendor_tracker_vendor_tracker_native_generateplainexcel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_executeexportreport",
+      "target": "vendor_tracker_vendor_tracker_native_showtoast",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rendertable",
+      "target": "vendor_tracker_vendor_tracker_native_getfilteredorders",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_openupdatedrawer",
+      "target": "vendor_tracker_vendor_tracker_native_rendertimeline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_validateledger",
+      "target": "vendor_tracker_vendor_tracker_native_updatedrawerbadges",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+      "target": "vendor_tracker_vendor_tracker_native_quickreceiveall",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+      "target": "vendor_tracker_vendor_tracker_native_quickdispatchall",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_generatepdf",
+      "target": "vendor_tracker_vendor_tracker_native_generateplainexcel",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_updatedrawerbadges",
+      "target": "vendor_tracker_vendor_tracker_native_orders",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_vendor_tracker_native_getfilteredorders",
+      "target": "vendor_tracker_vendor_tracker_native_orders",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vendor_tracker_native.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_v_brandmark",
+      "target": "ventrack_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_connectivity_orbits",
+      "target": "ventrack_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_glassmorphism_style",
+      "target": "ventrack_logo",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vendor_tracker_native",
+      "target": "ventrack_logo",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ventrack_logo.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_256_img",
+      "target": "ventrack_logo_256_branding_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ventrack_logo_256.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_256_img",
+      "target": "ventrack_logo_img",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ventrack_logo_256.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ventrack_logo_256_img",
+      "target": "main",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ventrack_logo_256.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "vendor_tracker_native_quick_actions",
+      "label": "Quick Order Ledger Adjustments",
+      "nodes": [
+        "vendor_tracker_vendor_tracker_native_rowquickreceiveall",
+        "vendor_tracker_vendor_tracker_native_rowquickdispatchall",
+        "vendor_tracker_vendor_tracker_native_quickreceiveall",
+        "vendor_tracker_vendor_tracker_native_quickdispatchall"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vendor_tracker_native.html"
+    },
+    {
+      "id": "vendor_tracker_native_export_flow",
+      "label": "Reports Export Flow",
+      "nodes": [
+        "vendor_tracker_vendor_tracker_native_executeexportreport",
+        "vendor_tracker_vendor_tracker_native_generatepdf",
+        "vendor_tracker_vendor_tracker_native_generateplainexcel"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "vendor_tracker_native.html"
+    },
+    {
+      "id": "vendor_tracker_native_db_operations",
+      "label": "Local Database Operations",
+      "nodes": [
+        "vendor_tracker_vendor_tracker_native_orders",
+        "vendor_tracker_vendor_tracker_native_save",
+        "vendor_tracker_vendor_tracker_native_load"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "vendor_tracker_native.html"
+    },
+    {
+      "id": "ventrack_logo_branding_composition",
+      "label": "Ventrack Brand Identity Composition",
+      "nodes": [
+        "ventrack_logo",
+        "ventrack_logo_v_brandmark",
+        "ventrack_logo_connectivity_orbits",
+        "ventrack_logo_glassmorphism_style"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ventrack_logo.png"
+    },
+    {
+      "id": "ventrack_branding_assets",
+      "label": "Ventrack Branding Visual Assets",
+      "nodes": [
+        "ventrack_logo_img",
+        "ventrack_logo_256_img",
+        "ventrack_logo_256_branding_concept"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ventrack_logo_256.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
