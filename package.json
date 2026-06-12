@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "com.talha.ventrack.v2",
-    "artifactName": "${productName} ${version}.${ext}",
+    "artifactName": "${productName}-${version}.${ext}",
     "publish": [
       {
         "provider": "github",
