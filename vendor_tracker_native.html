@@ -1930,8 +1930,8 @@
 
         qs('#updateCurrentVersion').textContent = APP_VERSION;
 
-        window.electronAPI.onUpdateStatus((status, data) => {
-            console.log('Update status:', status, data);
+        window.electronAPI.onUpdateStatus((status, data, isManual) => {
+            console.log('Update status:', status, data, isManual);
             const statusText = qs('#updateStatusText');
             const progressContainer = qs('#updateProgressBarContainer');
             const progressBar = qs('#updateProgressBar');
@@ -1962,6 +1962,9 @@
                     checkBtn.disabled = false;
                     checkBtn.innerHTML = '<i data-lucide="search" class="w-4 h-4"></i> Check for Updates';
                     safeCreateIcons();
+                    if (isManual) {
+                        showToast('You are on the latest version!', 'success');
+                    }
                     break;
                 case 'download-progress':
                     if (progressContainer) progressContainer.classList.remove('hidden');
@@ -2008,7 +2011,9 @@
                     checkBtn.disabled = false;
                     checkBtn.innerHTML = '<i data-lucide="search" class="w-4 h-4"></i> Check for Updates';
                     safeCreateIcons();
-                    showToast(`Update check error: ${data}`, 'error');
+                    if (isManual) {
+                        showToast(`Update check error: ${data}`, 'error');
+                    }
                     break;
             }
         });
