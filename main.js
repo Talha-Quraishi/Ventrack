@@ -89,9 +89,11 @@ let mainWindow;
 autoUpdater.autoDownload = true;
 autoUpdater.autoInstallOnAppQuit = true;
 
+let isManualCheck = false;
+
 function sendUpdateStatus(status, data = null) {
   if (mainWindow && !mainWindow.isDestroyed()) {
-    mainWindow.webContents.send('update-status', status, data);
+    mainWindow.webContents.send('update-status', status, data, isManualCheck);
   }
 }
 
@@ -286,6 +288,7 @@ app.whenReady().then(() => {
 
   // --- AUTO-UPDATES IPC LISTENERS ---
   ipcMain.on('check-for-updates', () => {
+    isManualCheck = true;
     autoUpdater.checkForUpdates().catch(err => {
       sendUpdateStatus('error', `Check failed: ${err.message}`);
     });
@@ -300,6 +303,7 @@ app.whenReady().then(() => {
   // Trigger update check on startup (packaged only, to avoid dev environment errors)
   if (app.isPackaged) {
     setTimeout(() => {
+      isManualCheck = false;
       autoUpdater.checkForUpdates().catch(err => {
         console.error('Failed to check for updates on startup:', err);
       });
