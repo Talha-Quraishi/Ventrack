@@ -114,10 +114,20 @@
       "norm_label": "fs"
     },
     {
+      "label": "{ autoUpdater }",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "main_autoupdater",
+      "community": 56,
+      "norm_label": "{ autoupdater }"
+    },
+    {
       "label": "DATA_FILE_PATH",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "main_data_file_path",
       "community": 56,
@@ -127,7 +137,7 @@
       "label": "BACKUPS_DIR",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "main_backups_dir",
       "community": 56,
@@ -137,7 +147,7 @@
       "label": "ensureBackupsDir()",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "main_ensurebackupsdir",
       "community": 56,
@@ -147,7 +157,7 @@
       "label": "runAutoBackup()",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "main_runautobackup",
       "community": 56,
@@ -157,17 +167,27 @@
       "label": "rotateBackups()",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "main_rotatebackups",
       "community": 56,
       "norm_label": "rotatebackups()"
     },
     {
+      "label": "sendUpdateStatus()",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "main_sendupdatestatus",
+      "community": 56,
+      "norm_label": "sendupdatestatus()"
+    },
+    {
       "label": "createWindow()",
       "file_type": "code",
       "source_file": "main.js",
-      "source_location": "L85",
+      "source_location": "L130",
       "_origin": "ast",
       "id": "main_createwindow",
       "community": 56,
@@ -354,10 +374,20 @@
       "norm_label": "artifactname"
     },
     {
-      "label": "win",
+      "label": "publish",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_build_publish",
+      "community": 32,
+      "norm_label": "publish"
+    },
+    {
+      "label": "win",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "package_build_win",
       "community": 32,
@@ -367,7 +397,7 @@
       "label": "target",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L22",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "package_win_target",
       "community": 32,
@@ -377,7 +407,7 @@
       "label": "icon",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "package_win_icon",
       "community": 32,
@@ -387,7 +417,7 @@
       "label": "nsis",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "package_build_nsis",
       "community": 32,
@@ -397,7 +427,7 @@
       "label": "oneClick",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "package_nsis_oneclick",
       "community": 32,
@@ -407,7 +437,7 @@
       "label": "allowToChangeInstallationDirectory",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "package_nsis_allowtochangeinstallationdirectory",
       "community": 32,
@@ -417,7 +447,7 @@
       "label": "createDesktopShortcut",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "package_nsis_createdesktopshortcut",
       "community": 32,
@@ -427,11 +457,31 @@
       "label": "createStartMenuShortcut",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "package_nsis_createstartmenushortcut",
       "community": 32,
       "norm_label": "createstartmenushortcut"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 32,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "electron-updater",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "package_dependencies_electron_updater",
+      "community": 32,
+      "norm_label": "electron-updater"
     },
     {
       "label": "preload.js",
@@ -540,7 +590,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_e",
-      "community": 47,
+      "community": 0,
       "norm_label": "e()"
     },
     {
@@ -600,7 +650,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_l",
-      "community": 74,
+      "community": 10,
       "norm_label": "l()"
     },
     {
@@ -630,7 +680,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_f",
-      "community": 21,
+      "community": 46,
       "norm_label": "f()"
     },
     {
@@ -640,7 +690,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_g",
-      "community": 4,
+      "community": 33,
       "norm_label": "g()"
     },
     {
@@ -680,7 +730,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_b",
-      "community": 74,
+      "community": 0,
       "norm_label": "b()"
     },
     {
@@ -690,7 +740,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_v",
-      "community": 33,
+      "community": 26,
       "norm_label": "v()"
     },
     {
@@ -730,7 +780,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_y",
-      "community": 38,
+      "community": 14,
       "norm_label": "y()"
     },
     {
@@ -770,7 +820,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_tt",
-      "community": 14,
+      "community": 57,
       "norm_label": "tt()"
     },
     {
@@ -800,7 +850,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_at",
-      "community": 47,
+      "community": 0,
       "norm_label": "at()"
     },
     {
@@ -810,7 +860,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_rt",
-      "community": 13,
+      "community": 44,
       "norm_label": "rt()"
     },
     {
@@ -820,7 +870,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_lt",
-      "community": 10,
+      "community": 26,
       "norm_label": "lt()"
     },
     {
@@ -870,7 +920,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt",
-      "community": 68,
+      "community": 28,
       "norm_label": "xt"
     },
     {
@@ -880,7 +930,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_constructor",
-      "community": 68,
+      "community": 28,
       "norm_label": ".constructor()"
     },
     {
@@ -890,7 +940,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_notify",
-      "community": 68,
+      "community": 28,
       "norm_label": "._notify()"
     },
     {
@@ -900,7 +950,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_refresh",
-      "community": 68,
+      "community": 28,
       "norm_label": "._refresh()"
     },
     {
@@ -910,7 +960,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_update",
-      "community": 68,
+      "community": 28,
       "norm_label": "._update()"
     },
     {
@@ -920,7 +970,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_getanims",
-      "community": 68,
+      "community": 28,
       "norm_label": "._getanims()"
     },
     {
@@ -930,7 +980,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_listen",
-      "community": 68,
+      "community": 28,
       "norm_label": ".listen()"
     },
     {
@@ -940,7 +990,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_add",
-      "community": 68,
+      "community": 28,
       "norm_label": ".add()"
     },
     {
@@ -950,7 +1000,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_has",
-      "community": 68,
+      "community": 28,
       "norm_label": ".has()"
     },
     {
@@ -960,7 +1010,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_start",
-      "community": 68,
+      "community": 28,
       "norm_label": ".start()"
     },
     {
@@ -990,7 +1040,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_min_xt_remove",
-      "community": 68,
+      "community": 28,
       "norm_label": ".remove()"
     },
     {
@@ -1010,7 +1060,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_vt",
-      "community": 28,
+      "community": 0,
       "norm_label": "vt()"
     },
     {
@@ -1050,7 +1100,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_zt",
-      "community": 28,
+      "community": 0,
       "norm_label": "zt()"
     },
     {
@@ -1060,7 +1110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ft",
-      "community": 28,
+      "community": 0,
       "norm_label": "ft()"
     },
     {
@@ -1070,7 +1120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_bt",
-      "community": 28,
+      "community": 0,
       "norm_label": "bt()"
     },
     {
@@ -1100,7 +1150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_gt",
-      "community": 28,
+      "community": 0,
       "norm_label": "gt()"
     },
     {
@@ -1110,7 +1160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_jt_constructor",
-      "community": 28,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1290,7 +1340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_jt_rotate",
-      "community": 28,
+      "community": 0,
       "norm_label": ".rotate()"
     },
     {
@@ -1310,7 +1360,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ne",
-      "community": 40,
+      "community": 4,
       "norm_label": "ne()"
     },
     {
@@ -1320,7 +1370,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_numeric",
-      "community": 40,
+      "community": 4,
       "norm_label": "numeric()"
     },
     {
@@ -1450,7 +1500,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ge",
-      "community": 46,
+      "community": 0,
       "norm_label": "ge()"
     },
     {
@@ -1480,7 +1530,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ve",
-      "community": 48,
+      "community": 40,
       "norm_label": "ve()"
     },
     {
@@ -1490,7 +1540,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_we",
-      "community": 46,
+      "community": 0,
       "norm_label": "we()"
     },
     {
@@ -1530,7 +1580,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ae",
-      "community": 53,
+      "community": 33,
       "norm_label": "ae()"
     },
     {
@@ -1540,7 +1590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_le",
-      "community": 28,
+      "community": 0,
       "norm_label": "le()"
     },
     {
@@ -1550,7 +1600,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ee",
-      "community": 28,
+      "community": 0,
       "norm_label": "ee()"
     },
     {
@@ -1560,7 +1610,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_re",
-      "community": 48,
+      "community": 0,
       "norm_label": "re()"
     },
     {
@@ -1570,7 +1620,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ie",
-      "community": 46,
+      "community": 24,
       "norm_label": "ie()"
     },
     {
@@ -1580,7 +1630,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ze",
-      "community": 41,
+      "community": 24,
       "norm_label": "ze()"
     },
     {
@@ -1590,7 +1640,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_be",
-      "community": 40,
+      "community": 4,
       "norm_label": "be()"
     },
     {
@@ -1600,7 +1650,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_je",
-      "community": 41,
+      "community": 24,
       "norm_label": "je()"
     },
     {
@@ -1610,7 +1660,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ye",
-      "community": 47,
+      "community": 0,
       "norm_label": "ye()"
     },
     {
@@ -1630,7 +1680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ti",
-      "community": 41,
+      "community": 24,
       "norm_label": "ti()"
     },
     {
@@ -1640,7 +1690,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ei",
-      "community": 41,
+      "community": 24,
       "norm_label": "ei()"
     },
     {
@@ -1650,7 +1700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ii",
-      "community": 74,
+      "community": 10,
       "norm_label": "ii()"
     },
     {
@@ -1800,7 +1850,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wi",
-      "community": 36,
+      "community": 0,
       "norm_label": "wi()"
     },
     {
@@ -1810,7 +1860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ki",
-      "community": 36,
+      "community": 33,
       "norm_label": "ki()"
     },
     {
@@ -1830,7 +1880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_di",
-      "community": 21,
+      "community": 26,
       "norm_label": "di()"
     },
     {
@@ -1860,7 +1910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_zi",
-      "community": 54,
+      "community": 24,
       "norm_label": "zi()"
     },
     {
@@ -1910,7 +1960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yi",
-      "community": 48,
+      "community": 40,
       "norm_label": "yi()"
     },
     {
@@ -1920,7 +1970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ui",
-      "community": 48,
+      "community": 40,
       "norm_label": "ui()"
     },
     {
@@ -1930,7 +1980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_xi",
-      "community": 48,
+      "community": 40,
       "norm_label": "xi()"
     },
     {
@@ -1950,7 +2000,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_index",
-      "community": 48,
+      "community": 40,
       "norm_label": "index()"
     },
     {
@@ -1960,7 +2010,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_dataset",
-      "community": 48,
+      "community": 40,
       "norm_label": "dataset()"
     },
     {
@@ -1970,7 +2020,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_nearest",
-      "community": 48,
+      "community": 40,
       "norm_label": "nearest()"
     },
     {
@@ -1990,7 +2040,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_es",
-      "community": 41,
+      "community": 0,
       "norm_label": "es()"
     },
     {
@@ -2000,7 +2050,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_is",
-      "community": 46,
+      "community": 0,
       "norm_label": "is()"
     },
     {
@@ -2010,7 +2060,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ss",
-      "community": 46,
+      "community": 0,
       "norm_label": "ss()"
     },
     {
@@ -2060,7 +2110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_addbox",
-      "community": 0,
+      "community": 46,
       "norm_label": "addbox()"
     },
     {
@@ -2080,7 +2130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_configure",
-      "community": 40,
+      "community": 46,
       "norm_label": "configure()"
     },
     {
@@ -2090,7 +2140,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_update",
-      "community": 36,
+      "community": 0,
       "norm_label": "update()"
     },
     {
@@ -2260,7 +2310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_vs",
-      "community": 41,
+      "community": 0,
       "norm_label": "vs()"
     },
     {
@@ -2300,7 +2350,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ss_releasecontext",
-      "community": 46,
+      "community": 36,
       "norm_label": ".releasecontext()"
     },
     {
@@ -2330,7 +2380,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ss_getdevicepixelratio",
-      "community": 46,
+      "community": 0,
       "norm_label": ".getdevicepixelratio()"
     },
     {
@@ -2340,7 +2390,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ss_getmaximumsize",
-      "community": 46,
+      "community": 0,
       "norm_label": ".getmaximumsize()"
     },
     {
@@ -2350,7 +2400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ss_isattached",
-      "community": 46,
+      "community": 0,
       "norm_label": ".isattached()"
     },
     {
@@ -2510,7 +2560,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_fs",
-      "community": 41,
+      "community": 0,
       "norm_label": "fs()"
     },
     {
@@ -2530,7 +2580,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_constructor",
-      "community": 72,
+      "community": 13,
       "norm_label": ".constructor()"
     },
     {
@@ -2580,7 +2630,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_getmeta",
-      "community": 72,
+      "community": 13,
       "norm_label": ".getmeta()"
     },
     {
@@ -2620,7 +2670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_destroy",
-      "community": 13,
+      "community": 44,
       "norm_label": "._destroy()"
     },
     {
@@ -2660,7 +2710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_configure",
-      "community": 47,
+      "community": 4,
       "norm_label": ".configure()"
     },
     {
@@ -2670,7 +2720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_parse",
-      "community": 74,
+      "community": 10,
       "norm_label": ".parse()"
     },
     {
@@ -2680,7 +2730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_parseprimitivedata",
-      "community": 74,
+      "community": 10,
       "norm_label": ".parseprimitivedata()"
     },
     {
@@ -2690,7 +2740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_parsearraydata",
-      "community": 74,
+      "community": 10,
       "norm_label": ".parsearraydata()"
     },
     {
@@ -2700,7 +2750,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_parseobjectdata",
-      "community": 74,
+      "community": 10,
       "norm_label": ".parseobjectdata()"
     },
     {
@@ -2760,7 +2810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_getallparsedvalues",
-      "community": 10,
+      "community": 26,
       "norm_label": ".getallparsedvalues()"
     },
     {
@@ -2810,7 +2860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_getstyle",
-      "community": 75,
+      "community": 13,
       "norm_label": ".getstyle()"
     },
     {
@@ -2830,7 +2880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_resolvedatasetelementoptions",
-      "community": 75,
+      "community": 13,
       "norm_label": ".resolvedatasetelementoptions()"
     },
     {
@@ -2840,7 +2890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_resolvedataelementoptions",
-      "community": 47,
+      "community": 13,
       "norm_label": ".resolvedataelementoptions()"
     },
     {
@@ -2850,7 +2900,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_resolveelementoptions",
-      "community": 47,
+      "community": 13,
       "norm_label": "._resolveelementoptions()"
     },
     {
@@ -2860,7 +2910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_resolveanimations",
-      "community": 47,
+      "community": 4,
       "norm_label": "._resolveanimations()"
     },
     {
@@ -2890,7 +2940,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_updateelement",
-      "community": 36,
+      "community": 33,
       "norm_label": ".updateelement()"
     },
     {
@@ -2900,7 +2950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_js_updatesharedoptions",
-      "community": 36,
+      "community": 33,
       "norm_label": ".updatesharedoptions()"
     },
     {
@@ -3060,7 +3110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_s_tooltipposition",
-      "community": 48,
+      "community": 40,
       "norm_label": ".tooltipposition()"
     },
     {
@@ -3070,7 +3120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_s_hasvalue",
-      "community": 48,
+      "community": 40,
       "norm_label": ".hasvalue()"
     },
     {
@@ -3080,7 +3130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_s_getprops",
-      "community": 48,
+      "community": 40,
       "norm_label": ".getprops()"
     },
     {
@@ -3110,7 +3160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_gs",
-      "community": 10,
+      "community": 33,
       "norm_label": "gs()"
     },
     {
@@ -3120,7 +3170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_qs",
-      "community": 0,
+      "community": 33,
       "norm_label": "qs()"
     },
     {
@@ -3130,7 +3180,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn",
-      "community": 21,
+      "community": 38,
       "norm_label": "tn"
     },
     {
@@ -3150,7 +3200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_init",
-      "community": 74,
+      "community": 10,
       "norm_label": ".init()"
     },
     {
@@ -3160,7 +3210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_parse",
-      "community": 21,
+      "community": 38,
       "norm_label": ".parse()"
     },
     {
@@ -3190,7 +3240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getpadding",
-      "community": 46,
+      "community": 0,
       "norm_label": ".getpadding()"
     },
     {
@@ -3200,7 +3250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getticks",
-      "community": 21,
+      "community": 38,
       "norm_label": ".getticks()"
     },
     {
@@ -3210,7 +3260,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getlabels",
-      "community": 74,
+      "community": 10,
       "norm_label": ".getlabels()"
     },
     {
@@ -3220,7 +3270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getlabelitems",
-      "community": 46,
+      "community": 38,
       "norm_label": ".getlabelitems()"
     },
     {
@@ -3230,7 +3280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_beforelayout",
-      "community": 21,
+      "community": 38,
       "norm_label": ".beforelayout()"
     },
     {
@@ -3330,7 +3380,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_determinedatalimits",
-      "community": 21,
+      "community": 38,
       "norm_label": ".determinedatalimits()"
     },
     {
@@ -3360,7 +3410,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_buildticks",
-      "community": 21,
+      "community": 38,
       "norm_label": ".buildticks()"
     },
     {
@@ -3420,7 +3470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_calculatelabelrotation",
-      "community": 38,
+      "community": 14,
       "norm_label": ".calculatelabelrotation()"
     },
     {
@@ -3440,7 +3490,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_afterautoskip",
-      "community": 21,
+      "community": 38,
       "norm_label": ".afterautoskip()"
     },
     {
@@ -3500,7 +3550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_ishorizontal",
-      "community": 21,
+      "community": 38,
       "norm_label": ".ishorizontal()"
     },
     {
@@ -3510,7 +3560,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_isfullsize",
-      "community": 21,
+      "community": 38,
       "norm_label": ".isfullsize()"
     },
     {
@@ -3550,7 +3600,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getlabelforvalue",
-      "community": 21,
+      "community": 38,
       "norm_label": ".getlabelforvalue()"
     },
     {
@@ -3560,7 +3610,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getpixelforvalue",
-      "community": 21,
+      "community": 38,
       "norm_label": ".getpixelforvalue()"
     },
     {
@@ -3570,7 +3620,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getvalueforpixel",
-      "community": 21,
+      "community": 38,
       "norm_label": ".getvalueforpixel()"
     },
     {
@@ -3580,7 +3630,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getpixelfortick",
-      "community": 10,
+      "community": 38,
       "norm_label": ".getpixelfortick()"
     },
     {
@@ -3660,7 +3710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_computegridlineitems",
-      "community": 53,
+      "community": 33,
       "norm_label": "._computegridlineitems()"
     },
     {
@@ -3700,7 +3750,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_computelabelarea",
-      "community": 46,
+      "community": 38,
       "norm_label": "._computelabelarea()"
     },
     {
@@ -3710,7 +3760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawbackground",
-      "community": 21,
+      "community": 38,
       "norm_label": ".drawbackground()"
     },
     {
@@ -3730,7 +3780,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawgrid",
-      "community": 26,
+      "community": 33,
       "norm_label": ".drawgrid()"
     },
     {
@@ -3740,7 +3790,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawborder",
-      "community": 53,
+      "community": 33,
       "norm_label": ".drawborder()"
     },
     {
@@ -3750,7 +3800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawlabels",
-      "community": 46,
+      "community": 38,
       "norm_label": ".drawlabels()"
     },
     {
@@ -3770,7 +3820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_draw",
-      "community": 46,
+      "community": 14,
       "norm_label": ".draw()"
     },
     {
@@ -3790,7 +3840,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getmatchingvisiblemetas",
-      "community": 41,
+      "community": 26,
       "norm_label": ".getmatchingvisiblemetas()"
     },
     {
@@ -3810,7 +3860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_maxdigits",
-      "community": 38,
+      "community": 40,
       "norm_label": "._maxdigits()"
     },
     {
@@ -3820,7 +3870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en",
-      "community": 67,
+      "community": 92,
       "norm_label": "en"
     },
     {
@@ -3830,7 +3880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en_constructor",
-      "community": 67,
+      "community": 92,
       "norm_label": ".constructor()"
     },
     {
@@ -3840,7 +3890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en_isfortype",
-      "community": 5,
+      "community": 92,
       "norm_label": ".isfortype()"
     },
     {
@@ -3850,7 +3900,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en_register",
-      "community": 67,
+      "community": 24,
       "norm_label": ".register()"
     },
     {
@@ -3860,7 +3910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en_get",
-      "community": 47,
+      "community": 4,
       "norm_label": ".get()"
     },
     {
@@ -3870,7 +3920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_en_unregister",
-      "community": 67,
+      "community": 92,
       "norm_label": ".unregister()"
     },
     {
@@ -3970,7 +4020,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_sn_getelement",
-      "community": 5,
+      "community": 44,
       "norm_label": ".getelement()"
     },
     {
@@ -4060,7 +4110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_sn_getregistryfortype",
-      "community": 5,
+      "community": 92,
       "norm_label": "._getregistryfortype()"
     },
     {
@@ -4080,7 +4130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on",
-      "community": 71,
+      "community": 51,
       "norm_label": "on"
     },
     {
@@ -4090,7 +4140,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_constructor",
-      "community": 71,
+      "community": 51,
       "norm_label": ".constructor()"
     },
     {
@@ -4100,7 +4150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_notify",
-      "community": 71,
+      "community": 51,
       "norm_label": ".notify()"
     },
     {
@@ -4110,7 +4160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_invalidate",
-      "community": 71,
+      "community": 51,
       "norm_label": ".invalidate()"
     },
     {
@@ -4120,7 +4170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_descriptors",
-      "community": 71,
+      "community": 51,
       "norm_label": "._descriptors()"
     },
     {
@@ -4130,7 +4180,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_createdescriptors",
-      "community": 71,
+      "community": 51,
       "norm_label": "._createdescriptors()"
     },
     {
@@ -4140,7 +4190,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_on_notifystatechanges",
-      "community": 71,
+      "community": 51,
       "norm_label": "._notifystatechanges()"
     },
     {
@@ -4150,7 +4200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_an",
-      "community": 71,
+      "community": 51,
       "norm_label": "an()"
     },
     {
@@ -4160,7 +4210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn",
-      "community": 67,
+      "community": 20,
       "norm_label": "rn()"
     },
     {
@@ -4170,7 +4220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ln",
-      "community": 44,
+      "community": 0,
       "norm_label": "ln()"
     },
     {
@@ -4210,7 +4260,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_un",
-      "community": 44,
+      "community": 0,
       "norm_label": "un()"
     },
     {
@@ -4240,7 +4290,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_xn",
-      "community": 47,
+      "community": 4,
       "norm_label": "xn()"
     },
     {
@@ -4330,7 +4380,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_datasetscopekeys",
-      "community": 47,
+      "community": 4,
       "norm_label": ".datasetscopekeys()"
     },
     {
@@ -4340,7 +4390,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_datasetanimationscopekeys",
-      "community": 47,
+      "community": 4,
       "norm_label": ".datasetanimationscopekeys()"
     },
     {
@@ -4350,7 +4400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_datasetelementscopekeys",
-      "community": 47,
+      "community": 13,
       "norm_label": ".datasetelementscopekeys()"
     },
     {
@@ -4360,7 +4410,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_pluginscopekeys",
-      "community": 47,
+      "community": 4,
       "norm_label": ".pluginscopekeys()"
     },
     {
@@ -4370,7 +4420,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_cachedscopes",
-      "community": 47,
+      "community": 4,
       "norm_label": "._cachedscopes()"
     },
     {
@@ -4380,7 +4430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_getoptionscopes",
-      "community": 47,
+      "community": 4,
       "norm_label": ".getoptionscopes()"
     },
     {
@@ -4400,7 +4450,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_resolvenamedoptions",
-      "community": 47,
+      "community": 4,
       "norm_label": ".resolvenamedoptions()"
     },
     {
@@ -4410,7 +4460,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_createresolver",
-      "community": 47,
+      "community": 4,
       "norm_label": ".createresolver()"
     },
     {
@@ -4420,7 +4470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn",
-      "community": 41,
+      "community": 4,
       "norm_label": "yn()"
     },
     {
@@ -4460,7 +4510,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_register",
-      "community": 67,
+      "community": 24,
       "norm_label": ".register()"
     },
     {
@@ -4490,7 +4540,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_data",
-      "community": 21,
+      "community": 38,
       "norm_label": ".data()"
     },
     {
@@ -4500,7 +4550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_options",
-      "community": 21,
+      "community": 38,
       "norm_label": ".options()"
     },
     {
@@ -4510,7 +4560,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_registry",
-      "community": 21,
+      "community": 38,
       "norm_label": ".registry()"
     },
     {
@@ -4530,7 +4580,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_clear",
-      "community": 46,
+      "community": 14,
       "norm_label": ".clear()"
     },
     {
@@ -4540,7 +4590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_stop",
-      "community": 44,
+      "community": 5,
       "norm_label": ".stop()"
     },
     {
@@ -4610,7 +4660,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_resetelements",
-      "community": 21,
+      "community": 36,
       "norm_label": "._resetelements()"
     },
     {
@@ -4620,7 +4670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_reset",
-      "community": 21,
+      "community": 36,
       "norm_label": ".reset()"
     },
     {
@@ -4640,7 +4690,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_checkeventbindings",
-      "community": 21,
+      "community": 36,
       "norm_label": "._checkeventbindings()"
     },
     {
@@ -4650,7 +4700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatehiddenindices",
-      "community": 21,
+      "community": 38,
       "norm_label": "._updatehiddenindices()"
     },
     {
@@ -4660,7 +4710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getuniformdatachanges",
-      "community": 21,
+      "community": 38,
       "norm_label": "._getuniformdatachanges()"
     },
     {
@@ -4670,7 +4720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatelayout",
-      "community": 36,
+      "community": 46,
       "norm_label": "._updatelayout()"
     },
     {
@@ -4680,7 +4730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatedatasets",
-      "community": 21,
+      "community": 46,
       "norm_label": "._updatedatasets()"
     },
     {
@@ -4690,7 +4740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatedataset",
-      "community": 21,
+      "community": 46,
       "norm_label": "._updatedataset()"
     },
     {
@@ -4710,7 +4760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getsorteddatasetmetas",
-      "community": 41,
+      "community": 0,
       "norm_label": "._getsorteddatasetmetas()"
     },
     {
@@ -4720,7 +4770,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getsortedvisibledatasetmetas",
-      "community": 41,
+      "community": 24,
       "norm_label": ".getsortedvisibledatasetmetas()"
     },
     {
@@ -4730,7 +4780,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawdatasets",
-      "community": 46,
+      "community": 24,
       "norm_label": "._drawdatasets()"
     },
     {
@@ -4740,7 +4790,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_drawdataset",
-      "community": 46,
+      "community": 24,
       "norm_label": "._drawdataset()"
     },
     {
@@ -4750,7 +4800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_ispointinarea",
-      "community": 48,
+      "community": 40,
       "norm_label": ".ispointinarea()"
     },
     {
@@ -4760,7 +4810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getelementsateventformode",
-      "community": 4,
+      "community": 38,
       "norm_label": ".getelementsateventformode()"
     },
     {
@@ -4770,7 +4820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getdatasetmeta",
-      "community": 21,
+      "community": 44,
       "norm_label": ".getdatasetmeta()"
     },
     {
@@ -4780,7 +4830,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getvisibledatasetcount",
-      "community": 41,
+      "community": 4,
       "norm_label": ".getvisibledatasetcount()"
     },
     {
@@ -4790,7 +4840,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_isdatasetvisible",
-      "community": 4,
+      "community": 44,
       "norm_label": ".isdatasetvisible()"
     },
     {
@@ -4800,7 +4850,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_setdatasetvisibility",
-      "community": 21,
+      "community": 44,
       "norm_label": ".setdatasetvisibility()"
     },
     {
@@ -4810,7 +4860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_toggledatavisibility",
-      "community": 21,
+      "community": 44,
       "norm_label": ".toggledatavisibility()"
     },
     {
@@ -4820,7 +4870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getdatavisibility",
-      "community": 41,
+      "community": 4,
       "norm_label": ".getdatavisibility()"
     },
     {
@@ -4830,7 +4880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatevisibility",
-      "community": 21,
+      "community": 44,
       "norm_label": "._updatevisibility()"
     },
     {
@@ -4840,7 +4890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_hide",
-      "community": 21,
+      "community": 44,
       "norm_label": ".hide()"
     },
     {
@@ -4850,7 +4900,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_show",
-      "community": 21,
+      "community": 44,
       "norm_label": ".show()"
     },
     {
@@ -4870,7 +4920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_destroy",
-      "community": 46,
+      "community": 36,
       "norm_label": ".destroy()"
     },
     {
@@ -4880,7 +4930,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_tobase64image",
-      "community": 21,
+      "community": 38,
       "norm_label": ".tobase64image()"
     },
     {
@@ -4890,7 +4940,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_bindevents",
-      "community": 21,
+      "community": 36,
       "norm_label": ".bindevents()"
     },
     {
@@ -4900,7 +4950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_binduserevents",
-      "community": 21,
+      "community": 36,
       "norm_label": ".binduserevents()"
     },
     {
@@ -4910,7 +4960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_bindresponsiveevents",
-      "community": 21,
+      "community": 0,
       "norm_label": ".bindresponsiveevents()"
     },
     {
@@ -4920,7 +4970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_unbindevents",
-      "community": 21,
+      "community": 36,
       "norm_label": ".unbindevents()"
     },
     {
@@ -4930,7 +4980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatehoverstyle",
-      "community": 21,
+      "community": 46,
       "norm_label": ".updatehoverstyle()"
     },
     {
@@ -4940,7 +4990,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_getactiveelements",
-      "community": 4,
+      "community": 38,
       "norm_label": ".getactiveelements()"
     },
     {
@@ -4950,7 +5000,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_setactiveelements",
-      "community": 21,
+      "community": 46,
       "norm_label": ".setactiveelements()"
     },
     {
@@ -4980,7 +5030,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_updatehoverstyles",
-      "community": 21,
+      "community": 46,
       "norm_label": "._updatehoverstyles()"
     },
     {
@@ -5000,7 +5050,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tn_handleevent",
-      "community": 21,
+      "community": 46,
       "norm_label": "._handleevent()"
     },
     {
@@ -5010,7 +5060,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_override",
-      "community": 67,
+      "community": 24,
       "norm_label": ".override()"
     },
     {
@@ -5020,7 +5070,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_constructor",
-      "community": 67,
+      "community": 20,
       "norm_label": ".constructor()"
     },
     {
@@ -5030,7 +5080,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_init",
-      "community": 67,
+      "community": 20,
       "norm_label": ".init()"
     },
     {
@@ -5040,7 +5090,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_formats",
-      "community": 74,
+      "community": 20,
       "norm_label": ".formats()"
     },
     {
@@ -5050,7 +5100,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_parse",
-      "community": 67,
+      "community": 20,
       "norm_label": ".parse()"
     },
     {
@@ -5060,7 +5110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_format",
-      "community": 67,
+      "community": 20,
       "norm_label": ".format()"
     },
     {
@@ -5070,7 +5120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_add",
-      "community": 41,
+      "community": 24,
       "norm_label": ".add()"
     },
     {
@@ -5100,7 +5150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_rn_endof",
-      "community": 67,
+      "community": 20,
       "norm_label": ".endof()"
     },
     {
@@ -5110,7 +5160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_zn",
-      "community": 10,
+      "community": 26,
       "norm_label": "zn()"
     },
     {
@@ -5120,7 +5170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_vn",
-      "community": 74,
+      "community": 10,
       "norm_label": "vn()"
     },
     {
@@ -5150,7 +5200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_jn",
-      "community": 74,
+      "community": 10,
       "norm_label": "jn()"
     },
     {
@@ -5160,7 +5210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_generatelabels",
-      "community": 41,
+      "community": 0,
       "norm_label": "generatelabels()"
     },
     {
@@ -5170,7 +5220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_onclick",
-      "community": 21,
+      "community": 44,
       "norm_label": "onclick()"
     },
     {
@@ -5190,7 +5240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_parse",
-      "community": 13,
+      "community": 26,
       "norm_label": ".parse()"
     },
     {
@@ -5270,7 +5320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_getlabelandvalue",
-      "community": 40,
+      "community": 4,
       "norm_label": ".getlabelandvalue()"
     },
     {
@@ -5280,7 +5330,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_n_getmaxborderwidth",
-      "community": 4,
+      "community": 44,
       "norm_label": ".getmaxborderwidth()"
     },
     {
@@ -5330,7 +5380,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_constructor",
-      "community": 41,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -5340,7 +5390,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_getlabelandvalue",
-      "community": 40,
+      "community": 4,
       "norm_label": ".getlabelandvalue()"
     },
     {
@@ -5350,7 +5400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_parseobjectdata",
-      "community": 41,
+      "community": 4,
       "norm_label": ".parseobjectdata()"
     },
     {
@@ -5360,7 +5410,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_update",
-      "community": 41,
+      "community": 4,
       "norm_label": ".update()"
     },
     {
@@ -5380,7 +5430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_updateradius",
-      "community": 41,
+      "community": 4,
       "norm_label": "._updateradius()"
     },
     {
@@ -5390,7 +5440,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_updateelements",
-      "community": 41,
+      "community": 4,
       "norm_label": ".updateelements()"
     },
     {
@@ -5400,7 +5450,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_countvisibleelements",
-      "community": 41,
+      "community": 4,
       "norm_label": ".countvisibleelements()"
     },
     {
@@ -5410,7 +5460,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_yn_computeangle",
-      "community": 41,
+      "community": 4,
       "norm_label": "._computeangle()"
     },
     {
@@ -5420,7 +5470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_parseprimitivedata",
-      "community": 74,
+      "community": 10,
       "norm_label": "parseprimitivedata()"
     },
     {
@@ -5430,7 +5480,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_parsearraydata",
-      "community": 74,
+      "community": 10,
       "norm_label": "parsearraydata()"
     },
     {
@@ -5440,7 +5490,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_parseobjectdata",
-      "community": 74,
+      "community": 10,
       "norm_label": "parseobjectdata()"
     },
     {
@@ -5460,7 +5510,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_getmaxoverflow",
-      "community": 54,
+      "community": 0,
       "norm_label": "getmaxoverflow()"
     },
     {
@@ -5480,7 +5530,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_initialize",
-      "community": 72,
+      "community": 13,
       "norm_label": "initialize()"
     },
     {
@@ -5590,7 +5640,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_draw",
-      "community": 54,
+      "community": 0,
       "norm_label": "draw()"
     },
     {
@@ -5600,7 +5650,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_resolvedataelementoptions",
-      "community": 74,
+      "community": 10,
       "norm_label": "resolvedataelementoptions()"
     },
     {
@@ -5630,7 +5680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_to",
-      "community": 48,
+      "community": 0,
       "norm_label": "to()"
     },
     {
@@ -5640,7 +5690,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_eo",
-      "community": 74,
+      "community": 0,
       "norm_label": "eo()"
     },
     {
@@ -5650,7 +5700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_io",
-      "community": 54,
+      "community": 24,
       "norm_label": "io()"
     },
     {
@@ -5660,7 +5710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_no",
-      "community": 54,
+      "community": 24,
       "norm_label": "no()"
     },
     {
@@ -5670,7 +5720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo",
-      "community": 54,
+      "community": 24,
       "norm_label": "oo"
     },
     {
@@ -5680,7 +5730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_constructor",
-      "community": 54,
+      "community": 24,
       "norm_label": ".constructor()"
     },
     {
@@ -5690,7 +5740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_updatecontrolpoints",
-      "community": 54,
+      "community": 0,
       "norm_label": ".updatecontrolpoints()"
     },
     {
@@ -5700,7 +5750,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_points",
-      "community": 54,
+      "community": 24,
       "norm_label": ".points()"
     },
     {
@@ -5710,7 +5760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_segments",
-      "community": 54,
+      "community": 24,
       "norm_label": ".segments()"
     },
     {
@@ -5730,7 +5780,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_last",
-      "community": 54,
+      "community": 24,
       "norm_label": ".last()"
     },
     {
@@ -5740,7 +5790,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_interpolate",
-      "community": 54,
+      "community": 24,
       "norm_label": ".interpolate()"
     },
     {
@@ -5750,7 +5800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_pathsegment",
-      "community": 54,
+      "community": 24,
       "norm_label": ".pathsegment()"
     },
     {
@@ -5760,7 +5810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_path",
-      "community": 54,
+      "community": 24,
       "norm_label": ".path()"
     },
     {
@@ -5770,7 +5820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_oo_draw",
-      "community": 54,
+      "community": 24,
       "norm_label": ".draw()"
     },
     {
@@ -5840,7 +5890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_fo",
-      "community": 54,
+      "community": 0,
       "norm_label": "fo()"
     },
     {
@@ -5860,7 +5910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_inrange",
-      "community": 48,
+      "community": 40,
       "norm_label": "inrange()"
     },
     {
@@ -5870,7 +5920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_getcenterpoint",
-      "community": 48,
+      "community": 40,
       "norm_label": "getcenterpoint()"
     },
     {
@@ -5880,7 +5930,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_tooltipposition",
-      "community": 48,
+      "community": 40,
       "norm_label": "tooltipposition()"
     },
     {
@@ -5920,7 +5970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_size",
-      "community": 54,
+      "community": 0,
       "norm_label": "size()"
     },
     {
@@ -5930,7 +5980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_po",
-      "community": 74,
+      "community": 10,
       "norm_label": "po()"
     },
     {
@@ -5940,7 +5990,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_mo",
-      "community": 74,
+      "community": 31,
       "norm_label": "mo()"
     },
     {
@@ -6030,7 +6080,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_bo_configure",
-      "community": 40,
+      "community": 46,
       "norm_label": ".configure()"
     },
     {
@@ -6060,7 +6110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_o_computeticklimit",
-      "community": 38,
+      "community": 33,
       "norm_label": ".computeticklimit()"
     },
     {
@@ -6070,7 +6120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_o_getpixelforvalue",
-      "community": 10,
+      "community": 33,
       "norm_label": ".getpixelforvalue()"
     },
     {
@@ -6180,7 +6230,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_so_configure",
-      "community": 40,
+      "community": 46,
       "norm_label": ".configure()"
     },
     {
@@ -6260,7 +6310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ro_generateticklabels",
-      "community": 74,
+      "community": 10,
       "norm_label": ".generateticklabels()"
     },
     {
@@ -6440,7 +6490,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ho_init",
-      "community": 74,
+      "community": 20,
       "norm_label": ".init()"
     },
     {
@@ -6470,7 +6520,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ho_determinedatalimits",
-      "community": 26,
+      "community": 20,
       "norm_label": ".determinedatalimits()"
     },
     {
@@ -6600,7 +6650,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ho_getlabelsize",
-      "community": 20,
+      "community": 33,
       "norm_label": "._getlabelsize()"
     },
     {
@@ -6610,7 +6660,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ho_getlabelcapacity",
-      "community": 20,
+      "community": 33,
       "norm_label": "._getlabelcapacity()"
     },
     {
@@ -6660,7 +6710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_init",
-      "community": 74,
+      "community": 20,
       "norm_label": "init()"
     },
     {
@@ -6670,7 +6720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_parse",
-      "community": 74,
+      "community": 10,
       "norm_label": "parse()"
     },
     {
@@ -6690,7 +6740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_buildticks",
-      "community": 74,
+      "community": 10,
       "norm_label": "buildticks()"
     },
     {
@@ -6720,7 +6770,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_getpixelfortick",
-      "community": 10,
+      "community": 33,
       "norm_label": "getpixelfortick()"
     },
     {
@@ -6910,7 +6960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ra",
-      "community": 33,
+      "community": 0,
       "norm_label": "ra()"
     },
     {
@@ -6920,7 +6970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_la",
-      "community": 14,
+      "community": 57,
       "norm_label": "la()"
     },
     {
@@ -6930,7 +6980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ha",
-      "community": 14,
+      "community": 57,
       "norm_label": "ha()"
     },
     {
@@ -6940,7 +6990,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ca",
-      "community": 24,
+      "community": 57,
       "norm_label": "ca"
     },
     {
@@ -6950,7 +7000,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ca_constructor",
-      "community": 24,
+      "community": 57,
       "norm_label": ".constructor()"
     },
     {
@@ -6970,7 +7020,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ca_interpolate",
-      "community": 24,
+      "community": 57,
       "norm_label": ".interpolate()"
     },
     {
@@ -7040,7 +7090,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_xa",
-      "community": 24,
+      "community": 57,
       "norm_label": "xa()"
     },
     {
@@ -7050,7 +7100,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_afterdatasetsupdate",
-      "community": 33,
+      "community": 44,
       "norm_label": "afterdatasetsupdate()"
     },
     {
@@ -7060,7 +7110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_beforedraw",
-      "community": 54,
+      "community": 24,
       "norm_label": "beforedraw()"
     },
     {
@@ -7220,7 +7270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ya_getlegenditemat",
-      "community": 33,
+      "community": 57,
       "norm_label": "._getlegenditemat()"
     },
     {
@@ -7230,7 +7280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ya_handleevent",
-      "community": 33,
+      "community": 57,
       "norm_label": ".handleevent()"
     },
     {
@@ -7250,7 +7300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_start",
-      "community": 0,
+      "community": 46,
       "norm_label": "start()"
     },
     {
@@ -7270,7 +7320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_beforeupdate",
-      "community": 72,
+      "community": 13,
       "norm_label": "beforeupdate()"
     },
     {
@@ -7290,7 +7340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_afterevent",
-      "community": 36,
+      "community": 33,
       "norm_label": "afterevent()"
     },
     {
@@ -7300,7 +7350,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa",
-      "community": 36,
+      "community": 33,
       "norm_label": "wa"
     },
     {
@@ -7310,7 +7360,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_constructor",
-      "community": 36,
+      "community": 33,
       "norm_label": ".constructor()"
     },
     {
@@ -7320,7 +7370,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_update",
-      "community": 36,
+      "community": 33,
       "norm_label": ".update()"
     },
     {
@@ -7330,7 +7380,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_ishorizontal",
-      "community": 38,
+      "community": 33,
       "norm_label": ".ishorizontal()"
     },
     {
@@ -7340,7 +7390,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_drawargs",
-      "community": 38,
+      "community": 33,
       "norm_label": "._drawargs()"
     },
     {
@@ -7350,7 +7400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_draw",
-      "community": 46,
+      "community": 33,
       "norm_label": ".draw()"
     },
     {
@@ -7360,7 +7410,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_average",
-      "community": 48,
+      "community": 40,
       "norm_label": "average()"
     },
     {
@@ -7370,7 +7420,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ta",
-      "community": 36,
+      "community": 33,
       "norm_label": "ta()"
     },
     {
@@ -7380,7 +7430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_za",
-      "community": 36,
+      "community": 33,
       "norm_label": "za()"
     },
     {
@@ -7400,7 +7450,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_labelcolor",
-      "community": 75,
+      "community": 13,
       "norm_label": "labelcolor()"
     },
     {
@@ -7420,7 +7470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_labelpointstyle",
-      "community": 75,
+      "community": 13,
       "norm_label": "labelpointstyle()"
     },
     {
@@ -7430,7 +7480,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_ba",
-      "community": 36,
+      "community": 33,
       "norm_label": "ba()"
     },
     {
@@ -7440,7 +7490,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_initialize",
-      "community": 72,
+      "community": 13,
       "norm_label": ".initialize()"
     },
     {
@@ -7450,7 +7500,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_resolveanimations",
-      "community": 36,
+      "community": 33,
       "norm_label": "._resolveanimations()"
     },
     {
@@ -7470,7 +7520,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_gettitle",
-      "community": 36,
+      "community": 33,
       "norm_label": ".gettitle()"
     },
     {
@@ -7480,7 +7530,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_getbeforebody",
-      "community": 36,
+      "community": 33,
       "norm_label": ".getbeforebody()"
     },
     {
@@ -7500,7 +7550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_getafterbody",
-      "community": 36,
+      "community": 33,
       "norm_label": ".getafterbody()"
     },
     {
@@ -7510,7 +7560,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_getfooter",
-      "community": 36,
+      "community": 33,
       "norm_label": ".getfooter()"
     },
     {
@@ -7530,7 +7580,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_drawcaret",
-      "community": 36,
+      "community": 33,
       "norm_label": ".drawcaret()"
     },
     {
@@ -7540,7 +7590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_getcaretposition",
-      "community": 36,
+      "community": 33,
       "norm_label": ".getcaretposition()"
     },
     {
@@ -7590,7 +7640,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_drawbackground",
-      "community": 36,
+      "community": 33,
       "norm_label": ".drawbackground()"
     },
     {
@@ -7600,7 +7650,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_updateanimationtarget",
-      "community": 36,
+      "community": 33,
       "norm_label": "._updateanimationtarget()"
     },
     {
@@ -7610,7 +7660,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_willrender",
-      "community": 36,
+      "community": 33,
       "norm_label": "._willrender()"
     },
     {
@@ -7620,7 +7670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_getactiveelements",
-      "community": 4,
+      "community": 38,
       "norm_label": ".getactiveelements()"
     },
     {
@@ -7630,7 +7680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_setactiveelements",
-      "community": 36,
+      "community": 33,
       "norm_label": ".setactiveelements()"
     },
     {
@@ -7640,7 +7690,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_handleevent",
-      "community": 36,
+      "community": 33,
       "norm_label": ".handleevent()"
     },
     {
@@ -7650,7 +7700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_wa_positionchanged",
-      "community": 36,
+      "community": 33,
       "norm_label": "._positionchanged()"
     },
     {
@@ -7670,7 +7720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_reset",
-      "community": 72,
+      "community": 13,
       "norm_label": "reset()"
     },
     {
@@ -7680,7 +7730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_min_afterdraw",
-      "community": 46,
+      "community": 33,
       "norm_label": "afterdraw()"
     },
     {
@@ -7770,7 +7820,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_e",
-      "community": 19,
+      "community": 2,
       "norm_label": "e()"
     },
     {
@@ -7780,7 +7830,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_s",
-      "community": 6,
+      "community": 72,
       "norm_label": "s()"
     },
     {
@@ -7830,7 +7880,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_l",
-      "community": 7,
+      "community": 70,
       "norm_label": "l()"
     },
     {
@@ -7870,7 +7920,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_g",
-      "community": 3,
+      "community": 35,
       "norm_label": "g()"
     },
     {
@@ -7910,7 +7960,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_b",
-      "community": 70,
+      "community": 18,
       "norm_label": "b()"
     },
     {
@@ -7920,7 +7970,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_v",
-      "community": 22,
+      "community": 58,
       "norm_label": "v()"
     },
     {
@@ -7930,7 +7980,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_w",
-      "community": 23,
+      "community": 34,
       "norm_label": "w()"
     },
     {
@@ -7940,7 +7990,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_h",
-      "community": 6,
+      "community": 54,
       "norm_label": "h()"
     },
     {
@@ -7960,7 +8010,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_y",
-      "community": 27,
+      "community": 55,
       "norm_label": "y()"
     },
     {
@@ -7970,7 +8020,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_q",
-      "community": 15,
+      "community": 58,
       "norm_label": "q()"
     },
     {
@@ -8010,7 +8060,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_et",
-      "community": 15,
+      "community": 72,
       "norm_label": "et()"
     },
     {
@@ -8030,7 +8080,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_at",
-      "community": 19,
+      "community": 2,
       "norm_label": "at()"
     },
     {
@@ -8040,7 +8090,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_rt",
-      "community": 19,
+      "community": 62,
       "norm_label": "rt()"
     },
     {
@@ -8060,7 +8110,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_ct",
-      "community": 15,
+      "community": 68,
       "norm_label": "ct()"
     },
     {
@@ -8070,7 +8120,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_dt",
-      "community": 55,
+      "community": 63,
       "norm_label": "dt()"
     },
     {
@@ -8080,7 +8130,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_pt",
-      "community": 7,
+      "community": 68,
       "norm_label": "pt()"
     },
     {
@@ -8100,7 +8150,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt",
-      "community": 34,
+      "community": 16,
       "norm_label": "xt"
     },
     {
@@ -8110,7 +8160,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_constructor",
-      "community": 34,
+      "community": 16,
       "norm_label": ".constructor()"
     },
     {
@@ -8120,7 +8170,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_notify",
-      "community": 34,
+      "community": 16,
       "norm_label": "._notify()"
     },
     {
@@ -8130,7 +8180,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_refresh",
-      "community": 34,
+      "community": 16,
       "norm_label": "._refresh()"
     },
     {
@@ -8140,7 +8190,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_update",
-      "community": 34,
+      "community": 16,
       "norm_label": "._update()"
     },
     {
@@ -8150,7 +8200,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_getanims",
-      "community": 34,
+      "community": 16,
       "norm_label": "._getanims()"
     },
     {
@@ -8160,7 +8210,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_listen",
-      "community": 34,
+      "community": 16,
       "norm_label": ".listen()"
     },
     {
@@ -8170,7 +8220,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_add",
-      "community": 34,
+      "community": 16,
       "norm_label": ".add()"
     },
     {
@@ -8180,7 +8230,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_has",
-      "community": 34,
+      "community": 16,
       "norm_label": ".has()"
     },
     {
@@ -8190,7 +8240,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_start",
-      "community": 34,
+      "community": 16,
       "norm_label": ".start()"
     },
     {
@@ -8200,7 +8250,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_running",
-      "community": 65,
+      "community": 74,
       "norm_label": ".running()"
     },
     {
@@ -8220,7 +8270,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "vendor_chart_umd_xt_remove",
-      "community": 34,
+      "community": 16,
       "norm_label": ".remove()"
     },
     {
@@ -8270,7 +8320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_it",
-      "community": 16,
+      "community": 55,
       "norm_label": "it()"
     },
     {
@@ -8520,7 +8570,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_jt_rotate",
-      "community": 16,
+      "community": 55,
       "norm_label": ".rotate()"
     },
     {
@@ -8540,7 +8590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ne",
-      "community": 6,
+      "community": 35,
       "norm_label": "ne()"
     },
     {
@@ -8550,7 +8600,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_numeric",
-      "community": 6,
+      "community": 35,
       "norm_label": "numeric()"
     },
     {
@@ -8680,7 +8730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ge",
-      "community": 15,
+      "community": 68,
       "norm_label": "ge()"
     },
     {
@@ -8690,7 +8740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_pe",
-      "community": 15,
+      "community": 17,
       "norm_label": "pe()"
     },
     {
@@ -8700,7 +8750,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_xe",
-      "community": 15,
+      "community": 17,
       "norm_label": "xe()"
     },
     {
@@ -8720,7 +8770,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_we",
-      "community": 15,
+      "community": 17,
       "norm_label": "we()"
     },
     {
@@ -8730,7 +8780,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ke",
-      "community": 65,
+      "community": 74,
       "norm_label": "ke()"
     },
     {
@@ -8770,7 +8820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_le",
-      "community": 15,
+      "community": 48,
       "norm_label": "le()"
     },
     {
@@ -8780,7 +8830,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ee",
-      "community": 16,
+      "community": 48,
       "norm_label": "ee()"
     },
     {
@@ -8790,7 +8840,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_re",
-      "community": 15,
+      "community": 6,
       "norm_label": "re()"
     },
     {
@@ -8800,7 +8850,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ie",
-      "community": 15,
+      "community": 74,
       "norm_label": "ie()"
     },
     {
@@ -8820,7 +8870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_be",
-      "community": 6,
+      "community": 35,
       "norm_label": "be()"
     },
     {
@@ -8840,7 +8890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ye",
-      "community": 19,
+      "community": 2,
       "norm_label": "ye()"
     },
     {
@@ -8880,7 +8930,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ii",
-      "community": 19,
+      "community": 70,
       "norm_label": "ii()"
     },
     {
@@ -8890,7 +8940,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ai",
-      "community": 15,
+      "community": 58,
       "norm_label": "ai()"
     },
     {
@@ -8900,7 +8950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ri",
-      "community": 22,
+      "community": 58,
       "norm_label": "ri()"
     },
     {
@@ -8910,7 +8960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_li",
-      "community": 15,
+      "community": 58,
       "norm_label": "li()"
     },
     {
@@ -8920,7 +8970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_hi",
-      "community": 15,
+      "community": 58,
       "norm_label": "hi()"
     },
     {
@@ -9010,7 +9060,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_i",
-      "community": 15,
+      "community": 72,
       "norm_label": "_i()"
     },
     {
@@ -9020,7 +9070,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_vi",
-      "community": 15,
+      "community": 3,
       "norm_label": "vi()"
     },
     {
@@ -9060,7 +9110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_di",
-      "community": 42,
+      "community": 22,
       "norm_label": "di()"
     },
     {
@@ -9120,7 +9170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ni",
-      "community": 15,
+      "community": 23,
       "norm_label": "ni()"
     },
     {
@@ -9130,7 +9180,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ji",
-      "community": 15,
+      "community": 72,
       "norm_label": "ji()"
     },
     {
@@ -9220,7 +9270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_es",
-      "community": 15,
+      "community": 47,
       "norm_label": "es()"
     },
     {
@@ -9230,7 +9280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_is",
-      "community": 15,
+      "community": 68,
       "norm_label": "is()"
     },
     {
@@ -9240,7 +9290,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss",
-      "community": 15,
+      "community": 68,
       "norm_label": "ss()"
     },
     {
@@ -9250,7 +9300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ns",
-      "community": 15,
+      "community": 68,
       "norm_label": "ns()"
     },
     {
@@ -9260,7 +9310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_os",
-      "community": 15,
+      "community": 68,
       "norm_label": "os()"
     },
     {
@@ -9290,7 +9340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_addbox",
-      "community": 65,
+      "community": 15,
       "norm_label": "addbox()"
     },
     {
@@ -9310,7 +9360,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_configure",
-      "community": 65,
+      "community": 54,
       "norm_label": "configure()"
     },
     {
@@ -9320,7 +9370,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_update",
-      "community": 15,
+      "community": 68,
       "norm_label": "update()"
     },
     {
@@ -9460,7 +9510,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ms",
-      "community": 15,
+      "community": 68,
       "norm_label": "ms()"
     },
     {
@@ -9490,7 +9540,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_vs",
-      "community": 3,
+      "community": 15,
       "norm_label": "vs()"
     },
     {
@@ -9500,7 +9550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ws",
-      "community": 15,
+      "community": 68,
       "norm_label": "ws()"
     },
     {
@@ -9510,7 +9560,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ks",
-      "community": 15,
+      "community": 68,
       "norm_label": "ks()"
     },
     {
@@ -9540,7 +9590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss_addeventlistener",
-      "community": 15,
+      "community": 68,
       "norm_label": ".addeventlistener()"
     },
     {
@@ -9550,7 +9600,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss_removeeventlistener",
-      "community": 15,
+      "community": 68,
       "norm_label": ".removeeventlistener()"
     },
     {
@@ -9560,7 +9610,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss_getdevicepixelratio",
-      "community": 15,
+      "community": 68,
       "norm_label": ".getdevicepixelratio()"
     },
     {
@@ -9570,7 +9620,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss_getmaximumsize",
-      "community": 15,
+      "community": 68,
       "norm_label": ".getmaximumsize()"
     },
     {
@@ -9580,7 +9630,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ss_isattached",
-      "community": 15,
+      "community": 68,
       "norm_label": ".isattached()"
     },
     {
@@ -9740,7 +9790,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_fs",
-      "community": 7,
+      "community": 15,
       "norm_label": "fs()"
     },
     {
@@ -9760,7 +9810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_constructor",
-      "community": 19,
+      "community": 71,
       "norm_label": ".constructor()"
     },
     {
@@ -9770,7 +9820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_initialize",
-      "community": 66,
+      "community": 54,
       "norm_label": ".initialize()"
     },
     {
@@ -9790,7 +9840,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_linkscales",
-      "community": 19,
+      "community": 62,
       "norm_label": ".linkscales()"
     },
     {
@@ -9800,7 +9850,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_getdataset",
-      "community": 19,
+      "community": 62,
       "norm_label": ".getdataset()"
     },
     {
@@ -9810,7 +9860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_getmeta",
-      "community": 19,
+      "community": 71,
       "norm_label": ".getmeta()"
     },
     {
@@ -9820,7 +9870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_getscaleforid",
-      "community": 19,
+      "community": 62,
       "norm_label": ".getscaleforid()"
     },
     {
@@ -9850,7 +9900,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_destroy",
-      "community": 19,
+      "community": 62,
       "norm_label": "._destroy()"
     },
     {
@@ -9860,7 +9910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_datacheck",
-      "community": 19,
+      "community": 62,
       "norm_label": "._datacheck()"
     },
     {
@@ -9870,7 +9920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_addelements",
-      "community": 19,
+      "community": 62,
       "norm_label": ".addelements()"
     },
     {
@@ -9880,7 +9930,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_buildorupdateelements",
-      "community": 19,
+      "community": 62,
       "norm_label": ".buildorupdateelements()"
     },
     {
@@ -9900,7 +9950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_parse",
-      "community": 7,
+      "community": 70,
       "norm_label": ".parse()"
     },
     {
@@ -9920,7 +9970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_parsearraydata",
-      "community": 19,
+      "community": 70,
       "norm_label": ".parsearraydata()"
     },
     {
@@ -9930,7 +9980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_parseobjectdata",
-      "community": 19,
+      "community": 70,
       "norm_label": ".parseobjectdata()"
     },
     {
@@ -10030,7 +10080,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_draw",
-      "community": 3,
+      "community": 19,
       "norm_label": ".draw()"
     },
     {
@@ -10040,7 +10090,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_getstyle",
-      "community": 19,
+      "community": 90,
       "norm_label": ".getstyle()"
     },
     {
@@ -10060,7 +10110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_resolvedatasetelementoptions",
-      "community": 19,
+      "community": 90,
       "norm_label": ".resolvedatasetelementoptions()"
     },
     {
@@ -10070,7 +10120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_resolvedataelementoptions",
-      "community": 19,
+      "community": 90,
       "norm_label": ".resolvedataelementoptions()"
     },
     {
@@ -10080,7 +10130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_resolveelementoptions",
-      "community": 19,
+      "community": 90,
       "norm_label": "._resolveelementoptions()"
     },
     {
@@ -10090,7 +10140,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_resolveanimations",
-      "community": 19,
+      "community": 2,
       "norm_label": "._resolveanimations()"
     },
     {
@@ -10100,7 +10150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_getsharedoptions",
-      "community": 7,
+      "community": 19,
       "norm_label": ".getsharedoptions()"
     },
     {
@@ -10110,7 +10160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_includeoptions",
-      "community": 7,
+      "community": 19,
       "norm_label": ".includeoptions()"
     },
     {
@@ -10130,7 +10180,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_updatesharedoptions",
-      "community": 7,
+      "community": 19,
       "norm_label": ".updatesharedoptions()"
     },
     {
@@ -10190,7 +10240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_resyncelements",
-      "community": 19,
+      "community": 62,
       "norm_label": "._resyncelements()"
     },
     {
@@ -10200,7 +10250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_insertelements",
-      "community": 19,
+      "community": 62,
       "norm_label": "._insertelements()"
     },
     {
@@ -10220,7 +10270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_js_removeelements",
-      "community": 19,
+      "community": 62,
       "norm_label": "._removeelements()"
     },
     {
@@ -10350,7 +10400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_qs",
-      "community": 3,
+      "community": 15,
       "norm_label": "qs()"
     },
     {
@@ -10380,7 +10430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_init",
-      "community": 19,
+      "community": 70,
       "norm_label": ".init()"
     },
     {
@@ -10420,7 +10470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getpadding",
-      "community": 15,
+      "community": 68,
       "norm_label": ".getpadding()"
     },
     {
@@ -10450,7 +10500,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getlabelitems",
-      "community": 27,
+      "community": 78,
       "norm_label": ".getlabelitems()"
     },
     {
@@ -10650,7 +10700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_calculatelabelrotation",
-      "community": 27,
+      "community": 3,
       "norm_label": ".calculatelabelrotation()"
     },
     {
@@ -10810,7 +10860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getpixelfortick",
-      "community": 27,
+      "community": 7,
       "norm_label": ".getpixelfortick()"
     },
     {
@@ -10930,7 +10980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_computelabelarea",
-      "community": 27,
+      "community": 78,
       "norm_label": "._computelabelarea()"
     },
     {
@@ -10960,7 +11010,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_drawgrid",
-      "community": 27,
+      "community": 22,
       "norm_label": ".drawgrid()"
     },
     {
@@ -10980,7 +11030,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_drawlabels",
-      "community": 27,
+      "community": 78,
       "norm_label": ".drawlabels()"
     },
     {
@@ -11000,7 +11050,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_draw",
-      "community": 27,
+      "community": 74,
       "norm_label": ".draw()"
     },
     {
@@ -11020,7 +11070,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getmatchingvisiblemetas",
-      "community": 7,
+      "community": 22,
       "norm_label": ".getmatchingvisiblemetas()"
     },
     {
@@ -11040,7 +11090,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_maxdigits",
-      "community": 6,
+      "community": 54,
       "norm_label": "._maxdigits()"
     },
     {
@@ -11070,7 +11120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_en_isfortype",
-      "community": 23,
+      "community": 34,
       "norm_label": ".isfortype()"
     },
     {
@@ -11110,7 +11160,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn",
-      "community": 23,
+      "community": 34,
       "norm_label": "sn"
     },
     {
@@ -11120,7 +11170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_constructor",
-      "community": 23,
+      "community": 34,
       "norm_label": ".constructor()"
     },
     {
@@ -11130,7 +11180,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_add",
-      "community": 23,
+      "community": 34,
       "norm_label": ".add()"
     },
     {
@@ -11140,7 +11190,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_remove",
-      "community": 23,
+      "community": 34,
       "norm_label": ".remove()"
     },
     {
@@ -11150,7 +11200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_addcontrollers",
-      "community": 23,
+      "community": 34,
       "norm_label": ".addcontrollers()"
     },
     {
@@ -11160,7 +11210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_addelements",
-      "community": 23,
+      "community": 34,
       "norm_label": ".addelements()"
     },
     {
@@ -11170,7 +11220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_addplugins",
-      "community": 23,
+      "community": 34,
       "norm_label": ".addplugins()"
     },
     {
@@ -11180,7 +11230,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_addscales",
-      "community": 23,
+      "community": 34,
       "norm_label": ".addscales()"
     },
     {
@@ -11190,7 +11240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_getcontroller",
-      "community": 23,
+      "community": 34,
       "norm_label": ".getcontroller()"
     },
     {
@@ -11200,7 +11250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_getelement",
-      "community": 66,
+      "community": 34,
       "norm_label": ".getelement()"
     },
     {
@@ -11210,7 +11260,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_getplugin",
-      "community": 23,
+      "community": 34,
       "norm_label": ".getplugin()"
     },
     {
@@ -11220,7 +11270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_getscale",
-      "community": 23,
+      "community": 34,
       "norm_label": ".getscale()"
     },
     {
@@ -11230,7 +11280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_removecontrollers",
-      "community": 23,
+      "community": 34,
       "norm_label": ".removecontrollers()"
     },
     {
@@ -11240,7 +11290,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_removeelements",
-      "community": 23,
+      "community": 34,
       "norm_label": ".removeelements()"
     },
     {
@@ -11250,7 +11300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_removeplugins",
-      "community": 23,
+      "community": 34,
       "norm_label": ".removeplugins()"
     },
     {
@@ -11260,7 +11310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_removescales",
-      "community": 23,
+      "community": 34,
       "norm_label": ".removescales()"
     },
     {
@@ -11270,7 +11320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_each",
-      "community": 23,
+      "community": 34,
       "norm_label": "._each()"
     },
     {
@@ -11280,7 +11330,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_exec",
-      "community": 23,
+      "community": 34,
       "norm_label": "._exec()"
     },
     {
@@ -11290,7 +11340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_getregistryfortype",
-      "community": 23,
+      "community": 34,
       "norm_label": "._getregistryfortype()"
     },
     {
@@ -11300,7 +11350,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sn_get",
-      "community": 23,
+      "community": 34,
       "norm_label": "._get()"
     },
     {
@@ -11400,7 +11450,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ln",
-      "community": 66,
+      "community": 15,
       "norm_label": "ln()"
     },
     {
@@ -11440,7 +11490,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_un",
-      "community": 66,
+      "community": 15,
       "norm_label": "un()"
     },
     {
@@ -11580,7 +11630,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_n_datasetelementscopekeys",
-      "community": 19,
+      "community": 90,
       "norm_label": ".datasetelementscopekeys()"
     },
     {
@@ -11630,7 +11680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_n_resolvenamedoptions",
-      "community": 19,
+      "community": 2,
       "norm_label": ".resolvenamedoptions()"
     },
     {
@@ -11700,7 +11750,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_unregister",
-      "community": 23,
+      "community": 34,
       "norm_label": ".unregister()"
     },
     {
@@ -11710,7 +11760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_aspectratio",
-      "community": 6,
+      "community": 72,
       "norm_label": ".aspectratio()"
     },
     {
@@ -11750,7 +11800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_initialize",
-      "community": 65,
+      "community": 74,
       "norm_label": "._initialize()"
     },
     {
@@ -11760,7 +11810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_clear",
-      "community": 27,
+      "community": 74,
       "norm_label": ".clear()"
     },
     {
@@ -11780,7 +11830,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_resize",
-      "community": 65,
+      "community": 74,
       "norm_label": ".resize()"
     },
     {
@@ -11910,7 +11960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_updatedatasets",
-      "community": 65,
+      "community": 74,
       "norm_label": "._updatedatasets()"
     },
     {
@@ -11920,7 +11970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_updatedataset",
-      "community": 65,
+      "community": 74,
       "norm_label": "._updatedataset()"
     },
     {
@@ -11930,7 +11980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_render",
-      "community": 65,
+      "community": 74,
       "norm_label": ".render()"
     },
     {
@@ -11940,7 +11990,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getsorteddatasetmetas",
-      "community": 15,
+      "community": 47,
       "norm_label": "._getsorteddatasetmetas()"
     },
     {
@@ -11950,7 +12000,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_getsortedvisibledatasetmetas",
-      "community": 15,
+      "community": 47,
       "norm_label": ".getsortedvisibledatasetmetas()"
     },
     {
@@ -11960,7 +12010,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_drawdatasets",
-      "community": 15,
+      "community": 74,
       "norm_label": "._drawdatasets()"
     },
     {
@@ -11970,7 +12020,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_drawdataset",
-      "community": 15,
+      "community": 74,
       "norm_label": "._drawdataset()"
     },
     {
@@ -12140,7 +12190,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_bindresponsiveevents",
-      "community": 15,
+      "community": 68,
       "norm_label": ".bindresponsiveevents()"
     },
     {
@@ -12190,7 +12240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_notifyplugins",
-      "community": 65,
+      "community": 74,
       "norm_label": ".notifyplugins()"
     },
     {
@@ -12200,7 +12250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_ispluginenabled",
-      "community": 66,
+      "community": 54,
       "norm_label": ".ispluginenabled()"
     },
     {
@@ -12220,7 +12270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_eventhandler",
-      "community": 65,
+      "community": 74,
       "norm_label": "._eventhandler()"
     },
     {
@@ -12230,7 +12280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_tn_handleevent",
-      "community": 65,
+      "community": 74,
       "norm_label": "._handleevent()"
     },
     {
@@ -12270,7 +12320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_rn_formats",
-      "community": 70,
+      "community": 18,
       "norm_label": ".formats()"
     },
     {
@@ -12350,7 +12400,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_vn",
-      "community": 7,
+      "community": 70,
       "norm_label": "vn()"
     },
     {
@@ -12380,7 +12430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_jn",
-      "community": 7,
+      "community": 70,
       "norm_label": "jn()"
     },
     {
@@ -12390,7 +12440,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_generatelabels",
-      "community": 15,
+      "community": 47,
       "norm_label": "generatelabels()"
     },
     {
@@ -12410,7 +12460,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_n_linkscales",
-      "community": 66,
+      "community": 54,
       "norm_label": ".linkscales()"
     },
     {
@@ -12500,7 +12550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_n_getlabelandvalue",
-      "community": 6,
+      "community": 35,
       "norm_label": ".getlabelandvalue()"
     },
     {
@@ -12650,7 +12700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_parseprimitivedata",
-      "community": 7,
+      "community": 70,
       "norm_label": "parseprimitivedata()"
     },
     {
@@ -12660,7 +12710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_parsearraydata",
-      "community": 7,
+      "community": 70,
       "norm_label": "parsearraydata()"
     },
     {
@@ -12670,7 +12720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_parseobjectdata",
-      "community": 7,
+      "community": 70,
       "norm_label": "parseobjectdata()"
     },
     {
@@ -12690,7 +12740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getmaxoverflow",
-      "community": 15,
+      "community": 48,
       "norm_label": "getmaxoverflow()"
     },
     {
@@ -12710,7 +12760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_initialize",
-      "community": 19,
+      "community": 71,
       "norm_label": "initialize()"
     },
     {
@@ -12730,7 +12780,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getstacks",
-      "community": 7,
+      "community": 76,
       "norm_label": "_getstacks()"
     },
     {
@@ -12740,7 +12790,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getstackcount",
-      "community": 7,
+      "community": 76,
       "norm_label": "_getstackcount()"
     },
     {
@@ -12750,7 +12800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getaxiscount",
-      "community": 7,
+      "community": 76,
       "norm_label": "_getaxiscount()"
     },
     {
@@ -12760,7 +12810,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getfirstscaleidforindexaxis",
-      "community": 7,
+      "community": 76,
       "norm_label": "getfirstscaleidforindexaxis()"
     },
     {
@@ -12770,7 +12820,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getaxis",
-      "community": 7,
+      "community": 76,
       "norm_label": "_getaxis()"
     },
     {
@@ -12780,7 +12830,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getstackindex",
-      "community": 7,
+      "community": 76,
       "norm_label": "_getstackindex()"
     },
     {
@@ -12810,7 +12860,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_calculatebarindexpixels",
-      "community": 7,
+      "community": 76,
       "norm_label": "_calculatebarindexpixels()"
     },
     {
@@ -12820,7 +12870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_draw",
-      "community": 15,
+      "community": 48,
       "norm_label": "draw()"
     },
     {
@@ -12830,7 +12880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_resolvedataelementoptions",
-      "community": 7,
+      "community": 70,
       "norm_label": "resolvedataelementoptions()"
     },
     {
@@ -12840,7 +12890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_addelements",
-      "community": 66,
+      "community": 34,
       "norm_label": "addelements()"
     },
     {
@@ -12860,7 +12910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_to",
-      "community": 15,
+      "community": 6,
       "norm_label": "to()"
     },
     {
@@ -12870,7 +12920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_eo",
-      "community": 70,
+      "community": 18,
       "norm_label": "eo()"
     },
     {
@@ -12920,7 +12970,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_oo_updatecontrolpoints",
-      "community": 15,
+      "community": 48,
       "norm_label": ".updatecontrolpoints()"
     },
     {
@@ -12950,7 +13000,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_oo_first",
-      "community": 15,
+      "community": 23,
       "norm_label": ".first()"
     },
     {
@@ -13070,7 +13120,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_fo",
-      "community": 15,
+      "community": 48,
       "norm_label": "fo()"
     },
     {
@@ -13140,7 +13190,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getrange",
-      "community": 15,
+      "community": 72,
       "norm_label": "getrange()"
     },
     {
@@ -13150,7 +13200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_size",
-      "community": 15,
+      "community": 48,
       "norm_label": "size()"
     },
     {
@@ -13160,7 +13210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_po",
-      "community": 3,
+      "community": 70,
       "norm_label": "po()"
     },
     {
@@ -13170,7 +13220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_mo",
-      "community": 70,
+      "community": 31,
       "norm_label": "mo()"
     },
     {
@@ -13180,7 +13230,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_xo",
-      "community": 6,
+      "community": 54,
       "norm_label": "xo()"
     },
     {
@@ -13190,7 +13240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo",
-      "community": 6,
+      "community": 54,
       "norm_label": "bo"
     },
     {
@@ -13200,7 +13250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_constructor",
-      "community": 6,
+      "community": 54,
       "norm_label": ".constructor()"
     },
     {
@@ -13210,7 +13260,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_parse",
-      "community": 6,
+      "community": 54,
       "norm_label": ".parse()"
     },
     {
@@ -13220,7 +13270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_handletickrangeoptions",
-      "community": 6,
+      "community": 22,
       "norm_label": ".handletickrangeoptions()"
     },
     {
@@ -13230,7 +13280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_getticklimit",
-      "community": 6,
+      "community": 54,
       "norm_label": ".getticklimit()"
     },
     {
@@ -13240,7 +13290,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_computeticklimit",
-      "community": 6,
+      "community": 54,
       "norm_label": ".computeticklimit()"
     },
     {
@@ -13250,7 +13300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_buildticks",
-      "community": 6,
+      "community": 54,
       "norm_label": ".buildticks()"
     },
     {
@@ -13260,7 +13310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_configure",
-      "community": 65,
+      "community": 54,
       "norm_label": ".configure()"
     },
     {
@@ -13270,7 +13320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_bo_getlabelforvalue",
-      "community": 6,
+      "community": 54,
       "norm_label": ".getlabelforvalue()"
     },
     {
@@ -13290,7 +13340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_o_computeticklimit",
-      "community": 78,
+      "community": 3,
       "norm_label": ".computeticklimit()"
     },
     {
@@ -13320,7 +13370,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_wo",
-      "community": 15,
+      "community": 72,
       "norm_label": "wo()"
     },
     {
@@ -13360,7 +13410,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_so_parse",
-      "community": 22,
+      "community": 63,
       "norm_label": ".parse()"
     },
     {
@@ -13400,7 +13450,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_so_getlabelforvalue",
-      "community": 6,
+      "community": 35,
       "norm_label": ".getlabelforvalue()"
     },
     {
@@ -13410,7 +13460,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_so_configure",
-      "community": 65,
+      "community": 54,
       "norm_label": ".configure()"
     },
     {
@@ -13460,7 +13510,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ro_setdimensions",
-      "community": 3,
+      "community": 55,
       "norm_label": ".setdimensions()"
     },
     {
@@ -13480,7 +13530,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ro_computeticklimit",
-      "community": 6,
+      "community": 54,
       "norm_label": ".computeticklimit()"
     },
     {
@@ -13540,7 +13590,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ro_getvaluefordistancefromcenter",
-      "community": 6,
+      "community": 72,
       "norm_label": ".getvaluefordistancefromcenter()"
     },
     {
@@ -13620,7 +13670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ro_drawborder",
-      "community": 27,
+      "community": 55,
       "norm_label": ".drawborder()"
     },
     {
@@ -13630,7 +13680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ro_drawlabels",
-      "community": 16,
+      "community": 55,
       "norm_label": ".drawlabels()"
     },
     {
@@ -13670,7 +13720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ho_init",
-      "community": 70,
+      "community": 18,
       "norm_label": ".init()"
     },
     {
@@ -13690,7 +13740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ho_beforelayout",
-      "community": 15,
+      "community": 65,
       "norm_label": ".beforelayout()"
     },
     {
@@ -13890,7 +13940,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_init",
-      "community": 70,
+      "community": 18,
       "norm_label": "init()"
     },
     {
@@ -13900,7 +13950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_parse",
-      "community": 19,
+      "community": 70,
       "norm_label": "parse()"
     },
     {
@@ -13910,7 +13960,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_determinedatalimits",
-      "community": 70,
+      "community": 22,
       "norm_label": "determinedatalimits()"
     },
     {
@@ -13970,7 +14020,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_getbasepixel",
-      "community": 35,
+      "community": 7,
       "norm_label": "getbasepixel()"
     },
     {
@@ -14040,7 +14090,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_go",
-      "community": 15,
+      "community": 65,
       "norm_label": "go()"
     },
     {
@@ -14050,7 +14100,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_beforelayout",
-      "community": 15,
+      "community": 65,
       "norm_label": "beforelayout()"
     },
     {
@@ -14080,7 +14130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ea",
-      "community": 15,
+      "community": 23,
       "norm_label": "ea()"
     },
     {
@@ -14090,7 +14140,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ia",
-      "community": 15,
+      "community": 23,
       "norm_label": "ia()"
     },
     {
@@ -14100,7 +14150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_sa",
-      "community": 15,
+      "community": 23,
       "norm_label": "sa()"
     },
     {
@@ -14120,7 +14170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_oa",
-      "community": 15,
+      "community": 47,
       "norm_label": "oa()"
     },
     {
@@ -14150,7 +14200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_la",
-      "community": 15,
+      "community": 23,
       "norm_label": "la()"
     },
     {
@@ -14160,7 +14210,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ha",
-      "community": 15,
+      "community": 23,
       "norm_label": "ha()"
     },
     {
@@ -14170,7 +14220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ca",
-      "community": 15,
+      "community": 23,
       "norm_label": "ca"
     },
     {
@@ -14180,7 +14230,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ca_constructor",
-      "community": 15,
+      "community": 23,
       "norm_label": ".constructor()"
     },
     {
@@ -14190,7 +14240,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ca_pathsegment",
-      "community": 15,
+      "community": 23,
       "norm_label": ".pathsegment()"
     },
     {
@@ -14200,7 +14250,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ca_interpolate",
-      "community": 15,
+      "community": 23,
       "norm_label": ".interpolate()"
     },
     {
@@ -14220,7 +14270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ua",
-      "community": 15,
+      "community": 23,
       "norm_label": "ua()"
     },
     {
@@ -14230,7 +14280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_fa",
-      "community": 15,
+      "community": 23,
       "norm_label": "fa()"
     },
     {
@@ -14240,7 +14290,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ga",
-      "community": 15,
+      "community": 23,
       "norm_label": "ga()"
     },
     {
@@ -14250,7 +14300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_pa",
-      "community": 15,
+      "community": 23,
       "norm_label": "pa()"
     },
     {
@@ -14260,7 +14310,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_ma",
-      "community": 15,
+      "community": 23,
       "norm_label": "ma()"
     },
     {
@@ -14270,7 +14320,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_xa",
-      "community": 15,
+      "community": 23,
       "norm_label": "xa()"
     },
     {
@@ -14290,7 +14340,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_beforedraw",
-      "community": 15,
+      "community": 48,
       "norm_label": "beforedraw()"
     },
     {
@@ -14300,7 +14350,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_beforedatasetsdraw",
-      "community": 15,
+      "community": 47,
       "norm_label": "beforedatasetsdraw()"
     },
     {
@@ -14310,7 +14360,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_beforedatasetdraw",
-      "community": 15,
+      "community": 47,
       "norm_label": "beforedatasetdraw()"
     },
     {
@@ -14480,7 +14530,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_start",
-      "community": 65,
+      "community": 15,
       "norm_label": "start()"
     },
     {
@@ -14500,7 +14550,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_beforeupdate",
-      "community": 19,
+      "community": 71,
       "norm_label": "beforeupdate()"
     },
     {
@@ -14620,7 +14670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_label",
-      "community": 6,
+      "community": 72,
       "norm_label": "label()"
     },
     {
@@ -14630,7 +14680,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_labelcolor",
-      "community": 19,
+      "community": 90,
       "norm_label": "labelcolor()"
     },
     {
@@ -14650,7 +14700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_labelpointstyle",
-      "community": 19,
+      "community": 90,
       "norm_label": "labelpointstyle()"
     },
     {
@@ -14670,7 +14720,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_wa_initialize",
-      "community": 19,
+      "community": 71,
       "norm_label": ".initialize()"
     },
     {
@@ -14900,7 +14950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "vendor_chart_umd_reset",
-      "community": 19,
+      "community": 71,
       "norm_label": "reset()"
     },
     {
@@ -15480,7 +15530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_constructor",
-      "community": 30,
+      "community": 9,
       "norm_label": "constructor()"
     },
     {
@@ -15540,7 +15590,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_set",
-      "community": 11,
+      "community": 9,
       "norm_label": "_set()"
     },
     {
@@ -15550,7 +15600,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_movetorecent",
-      "community": 11,
+      "community": 9,
       "norm_label": "_movetorecent()"
     },
     {
@@ -15600,7 +15650,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_clear",
-      "community": 12,
+      "community": 9,
       "norm_label": "clear()"
     },
     {
@@ -15620,7 +15670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_keys",
-      "community": 12,
+      "community": 41,
       "norm_label": "keys()"
     },
     {
@@ -15660,7 +15710,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_size",
-      "community": 12,
+      "community": 41,
       "norm_label": "size()"
     },
     {
@@ -15670,7 +15720,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_wi",
-      "community": 58,
+      "community": 29,
       "norm_label": "wi()"
     },
     {
@@ -15680,7 +15730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_xt",
-      "community": 11,
+      "community": 41,
       "norm_label": "xt()"
     },
     {
@@ -15690,7 +15740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_kf",
-      "community": 58,
+      "community": 29,
       "norm_label": "kf()"
     },
     {
@@ -15700,7 +15750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_js",
-      "community": 12,
+      "community": 41,
       "norm_label": "js()"
     },
     {
@@ -15710,7 +15760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zs",
-      "community": 12,
+      "community": 91,
       "norm_label": "zs()"
     },
     {
@@ -15720,7 +15770,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_info",
-      "community": 12,
+      "community": 41,
       "norm_label": "info()"
     },
     {
@@ -15730,7 +15780,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_warn",
-      "community": 12,
+      "community": 41,
       "norm_label": "warn()"
     },
     {
@@ -15740,7 +15790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_risk",
-      "community": 12,
+      "community": 41,
       "norm_label": "risk()"
     },
     {
@@ -15820,7 +15870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_kt",
-      "community": 12,
+      "community": 41,
       "norm_label": "kt()"
     },
     {
@@ -15830,7 +15880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_we",
-      "community": 31,
+      "community": 29,
       "norm_label": "we()"
     },
     {
@@ -15860,7 +15910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_pf",
-      "community": 12,
+      "community": 9,
       "norm_label": "pf()"
     },
     {
@@ -15870,7 +15920,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ke",
-      "community": 31,
+      "community": 29,
       "norm_label": "ke()"
     },
     {
@@ -15890,7 +15940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jt",
-      "community": 29,
+      "community": 91,
       "norm_label": "jt()"
     },
     {
@@ -15940,7 +15990,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ve",
-      "community": 31,
+      "community": 29,
       "norm_label": "ve()"
     },
     {
@@ -15950,7 +16000,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_en",
-      "community": 31,
+      "community": 29,
       "norm_label": "en()"
     },
     {
@@ -15960,7 +16010,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_lf",
-      "community": 29,
+      "community": 91,
       "norm_label": "lf()"
     },
     {
@@ -15970,7 +16020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ks",
-      "community": 12,
+      "community": 91,
       "norm_label": "ks()"
     },
     {
@@ -15980,7 +16030,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_k",
-      "community": 31,
+      "community": 29,
       "norm_label": "k()"
     },
     {
@@ -16000,7 +16050,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_yv",
-      "community": 31,
+      "community": 29,
       "norm_label": "yv()"
     },
     {
@@ -16030,7 +16080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_nr",
-      "community": 12,
+      "community": 91,
       "norm_label": "nr()"
     },
     {
@@ -16050,7 +16100,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_nf",
-      "community": 31,
+      "community": 29,
       "norm_label": "nf()"
     },
     {
@@ -16060,7 +16110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_bf",
-      "community": 31,
+      "community": 29,
       "norm_label": "bf()"
     },
     {
@@ -16070,7 +16120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ff",
-      "community": 31,
+      "community": 29,
       "norm_label": "ff()"
     },
     {
@@ -16080,7 +16130,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ex",
-      "community": 31,
+      "community": 29,
       "norm_label": "ex()"
     },
     {
@@ -16090,7 +16140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jf",
-      "community": 31,
+      "community": 29,
       "norm_label": "jf()"
     },
     {
@@ -16100,7 +16150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zf",
-      "community": 31,
+      "community": 29,
       "norm_label": "zf()"
     },
     {
@@ -16140,7 +16190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_wf",
-      "community": 31,
+      "community": 29,
       "norm_label": "wf()"
     },
     {
@@ -16160,7 +16210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_yf",
-      "community": 58,
+      "community": 29,
       "norm_label": "yf()"
     },
     {
@@ -16170,7 +16220,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_sx",
-      "community": 58,
+      "community": 29,
       "norm_label": "sx()"
     },
     {
@@ -16180,7 +16230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tn",
-      "community": 58,
+      "community": 29,
       "norm_label": "tn()"
     },
     {
@@ -16190,7 +16240,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_t",
-      "community": 58,
+      "community": 29,
       "norm_label": "_t()"
     },
     {
@@ -16200,7 +16250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_xf",
-      "community": 31,
+      "community": 29,
       "norm_label": "xf()"
     },
     {
@@ -16210,7 +16260,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ax",
-      "community": 58,
+      "community": 29,
       "norm_label": "ax()"
     },
     {
@@ -16240,7 +16290,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_lx",
-      "community": 58,
+      "community": 29,
       "norm_label": "lx()"
     },
     {
@@ -16250,7 +16300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ea",
-      "community": 58,
+      "community": 29,
       "norm_label": "ea()"
     },
     {
@@ -16260,7 +16310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_x",
-      "community": 62,
+      "community": 31,
       "norm_label": "x()"
     },
     {
@@ -16270,7 +16320,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zt",
-      "community": 89,
+      "community": 1,
       "norm_label": "zt()"
     },
     {
@@ -16290,7 +16340,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ux",
-      "community": 89,
+      "community": 1,
       "norm_label": "ux()"
     },
     {
@@ -16330,7 +16380,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_hx",
-      "community": 31,
+      "community": 29,
       "norm_label": "hx()"
     },
     {
@@ -16380,7 +16430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_negative",
-      "community": 12,
+      "community": 41,
       "norm_label": "negative()"
     },
     {
@@ -16390,7 +16440,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_breakpoints",
-      "community": 12,
+      "community": 41,
       "norm_label": "breakpoints()"
     },
     {
@@ -16480,7 +16530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_tailwind_min_showsourcecode",
-      "community": 8,
+      "community": 9,
       "norm_label": "showsourcecode()"
     },
     {
@@ -16490,7 +16540,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tostring",
-      "community": 8,
+      "community": 9,
       "norm_label": "tostring()"
     },
     {
@@ -16610,7 +16660,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "vendor_tailwind_min_rawbeforedecl",
-      "community": 9,
+      "community": 12,
       "norm_label": "rawbeforedecl()"
     },
     {
@@ -16640,7 +16690,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "vendor_tailwind_min_rawcolon",
-      "community": 9,
+      "community": 12,
       "norm_label": "rawcolon()"
     },
     {
@@ -16740,7 +16790,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "vendor_tailwind_min_wr",
-      "community": 30,
+      "community": 8,
       "norm_label": "wr()"
     },
     {
@@ -16760,7 +16810,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_after",
-      "community": 30,
+      "community": 25,
       "norm_label": "after()"
     },
     {
@@ -16770,7 +16820,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_assign",
-      "community": 31,
+      "community": 29,
       "norm_label": "assign()"
     },
     {
@@ -16810,7 +16860,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_cloneafter",
-      "community": 30,
+      "community": 12,
       "norm_label": "cloneafter()"
     },
     {
@@ -16820,7 +16870,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_clonebefore",
-      "community": 12,
+      "community": 31,
       "norm_label": "clonebefore()"
     },
     {
@@ -16860,7 +16910,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_markdirty",
-      "community": 30,
+      "community": 12,
       "norm_label": "markdirty()"
     },
     {
@@ -16870,7 +16920,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_next",
-      "community": 30,
+      "community": 12,
       "norm_label": "next()"
     },
     {
@@ -16880,7 +16930,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_positionby",
-      "community": 30,
+      "community": 8,
       "norm_label": "positionby()"
     },
     {
@@ -16890,7 +16940,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "vendor_tailwind_min_positioninside",
-      "community": 30,
+      "community": 8,
       "norm_label": "positioninside()"
     },
     {
@@ -16910,7 +16960,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_rangeby",
-      "community": 30,
+      "community": 8,
       "norm_label": "rangeby()"
     },
     {
@@ -16920,7 +16970,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_remove",
-      "community": 30,
+      "community": 12,
       "norm_label": "remove()"
     },
     {
@@ -16930,7 +16980,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_replacewith",
-      "community": 30,
+      "community": 12,
       "norm_label": "replacewith()"
     },
     {
@@ -16940,7 +16990,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tojson",
-      "community": 12,
+      "community": 41,
       "norm_label": "tojson()"
     },
     {
@@ -16990,7 +17040,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_append",
-      "community": 30,
+      "community": 25,
       "norm_label": "append()"
     },
     {
@@ -17000,7 +17050,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_each",
-      "community": 37,
+      "community": 30,
       "norm_label": "each()"
     },
     {
@@ -17010,7 +17060,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_every",
-      "community": 31,
+      "community": 29,
       "norm_label": "every()"
     },
     {
@@ -17030,7 +17080,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_index",
-      "community": 30,
+      "community": 12,
       "norm_label": "index()"
     },
     {
@@ -17040,7 +17090,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_insertafter",
-      "community": 30,
+      "community": 12,
       "norm_label": "insertafter()"
     },
     {
@@ -17060,7 +17110,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_normalize",
-      "community": 30,
+      "community": 12,
       "norm_label": "normalize()"
     },
     {
@@ -17070,7 +17120,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prepend",
-      "community": 30,
+      "community": 12,
       "norm_label": "prepend()"
     },
     {
@@ -17090,7 +17140,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_removeall",
-      "community": 30,
+      "community": 25,
       "norm_label": "removeall()"
     },
     {
@@ -17100,7 +17150,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_removechild",
-      "community": 30,
+      "community": 12,
       "norm_label": "removechild()"
     },
     {
@@ -17110,7 +17160,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_replacevalues",
-      "community": 30,
+      "community": 12,
       "norm_label": "replacevalues()"
     },
     {
@@ -17120,7 +17170,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_some",
-      "community": 12,
+      "community": 41,
       "norm_label": "some()"
     },
     {
@@ -17160,7 +17210,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_walkdecls",
-      "community": 9,
+      "community": 12,
       "norm_label": "walkdecls()"
     },
     {
@@ -17200,7 +17250,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "vendor_tailwind_min_toresult",
-      "community": 29,
+      "community": 91,
       "norm_label": "toresult()"
     },
     {
@@ -17220,7 +17270,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "vendor_tailwind_min_mapresolve",
-      "community": 30,
+      "community": 9,
       "norm_label": "mapresolve()"
     },
     {
@@ -17230,7 +17280,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "vendor_tailwind_min_origin",
-      "community": 8,
+      "community": 9,
       "norm_label": "origin()"
     },
     {
@@ -17240,7 +17290,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "vendor_tailwind_min_from",
-      "community": 62,
+      "community": 31,
       "norm_label": "from()"
     },
     {
@@ -17260,7 +17310,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "vendor_tailwind_min_space",
-      "community": 11,
+      "community": 9,
       "norm_label": "space()"
     },
     {
@@ -17270,7 +17320,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "vendor_tailwind_min_split",
-      "community": 8,
+      "community": 12,
       "norm_label": "split()"
     },
     {
@@ -17330,7 +17380,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_n",
-      "community": 12,
+      "community": 41,
       "norm_label": "n()"
     },
     {
@@ -17370,7 +17420,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_createtokenizer",
-      "community": 30,
+      "community": 9,
       "norm_label": "createtokenizer()"
     },
     {
@@ -17630,7 +17680,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_a",
-      "community": 31,
+      "community": 29,
       "norm_label": "_a()"
     },
     {
@@ -17640,7 +17690,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_async",
-      "community": 76,
+      "community": 37,
       "norm_label": "async()"
     },
     {
@@ -17650,7 +17700,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_catch",
-      "community": 76,
+      "community": 37,
       "norm_label": "catch()"
     },
     {
@@ -17660,7 +17710,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_finally",
-      "community": 76,
+      "community": 37,
       "norm_label": "finally()"
     },
     {
@@ -17730,7 +17780,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_then",
-      "community": 76,
+      "community": 37,
       "norm_label": "then()"
     },
     {
@@ -17840,7 +17890,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "vendor_tailwind_min_use",
-      "community": 30,
+      "community": 12,
       "norm_label": "use()"
     },
     {
@@ -18170,7 +18220,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jk",
-      "community": 37,
+      "community": 30,
       "norm_label": "jk()"
     },
     {
@@ -18180,7 +18230,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ja",
-      "community": 37,
+      "community": 30,
       "norm_label": "ja()"
     },
     {
@@ -18350,7 +18400,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_is",
-      "community": 37,
+      "community": 30,
       "norm_label": "is()"
     },
     {
@@ -18370,7 +18420,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ls",
-      "community": 37,
+      "community": 30,
       "norm_label": "ls()"
     },
     {
@@ -18380,7 +18430,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ro",
-      "community": 37,
+      "community": 30,
       "norm_label": "ro()"
     },
     {
@@ -18390,7 +18440,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_no",
-      "community": 12,
+      "community": 41,
       "norm_label": "no()"
     },
     {
@@ -18410,7 +18460,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "vendor_tailwind_min_qs",
-      "community": 62,
+      "community": 31,
       "norm_label": "qs()"
     },
     {
@@ -18470,7 +18520,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_bd",
-      "community": 37,
+      "community": 30,
       "norm_label": "bd()"
     },
     {
@@ -18530,7 +18580,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ar",
-      "community": 29,
+      "community": 91,
       "norm_label": "ar()"
     },
     {
@@ -18540,7 +18590,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_yo",
-      "community": 11,
+      "community": 31,
       "norm_label": "yo()"
     },
     {
@@ -18560,7 +18610,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_bo",
-      "community": 87,
+      "community": 91,
       "norm_label": "bo()"
     },
     {
@@ -18570,7 +18620,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ue",
-      "community": 87,
+      "community": 91,
       "norm_label": "ue()"
     },
     {
@@ -18580,7 +18630,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_od",
-      "community": 29,
+      "community": 91,
       "norm_label": "od()"
     },
     {
@@ -18590,7 +18640,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_oc",
-      "community": 29,
+      "community": 91,
       "norm_label": "oc()"
     },
     {
@@ -18600,7 +18650,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tc",
-      "community": 87,
+      "community": 91,
       "norm_label": "tc()"
     },
     {
@@ -18640,7 +18690,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_mt",
-      "community": 12,
+      "community": 41,
       "norm_label": "mt()"
     },
     {
@@ -18650,7 +18700,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_d",
-      "community": 37,
+      "community": 30,
       "norm_label": "$d()"
     },
     {
@@ -18680,7 +18730,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_mc",
-      "community": 30,
+      "community": 12,
       "norm_label": "mc()"
     },
     {
@@ -18690,7 +18740,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_co",
-      "community": 30,
+      "community": 25,
       "norm_label": "co()"
     },
     {
@@ -18710,7 +18760,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_nc",
-      "community": 30,
+      "community": 25,
       "norm_label": "nc()"
     },
     {
@@ -18720,7 +18770,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_bc",
-      "community": 29,
+      "community": 25,
       "norm_label": "bc()"
     },
     {
@@ -18730,7 +18780,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_fc",
-      "community": 29,
+      "community": 25,
       "norm_label": "fc()"
     },
     {
@@ -18740,7 +18790,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jc",
-      "community": 30,
+      "community": 25,
       "norm_label": "jc()"
     },
     {
@@ -18750,7 +18800,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_once",
-      "community": 37,
+      "community": 52,
       "norm_label": "once()"
     },
     {
@@ -18820,7 +18870,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ur",
-      "community": 8,
+      "community": 9,
       "norm_label": "ur()"
     },
     {
@@ -18830,7 +18880,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_te",
-      "community": 29,
+      "community": 91,
       "norm_label": "te()"
     },
     {
@@ -18840,7 +18890,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_o",
-      "community": 29,
+      "community": 91,
       "norm_label": "$o()"
     },
     {
@@ -18850,7 +18900,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_qn",
-      "community": 29,
+      "community": 91,
       "norm_label": "qn()"
     },
     {
@@ -18860,7 +18910,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_l",
-      "community": 12,
+      "community": 41,
       "norm_label": "l()"
     },
     {
@@ -18880,7 +18930,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_mo",
-      "community": 8,
+      "community": 12,
       "norm_label": "mo()"
     },
     {
@@ -18940,7 +18990,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jn",
-      "community": 9,
+      "community": 12,
       "norm_label": "jn()"
     },
     {
@@ -18960,7 +19010,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_v",
-      "community": 11,
+      "community": 41,
       "norm_label": "v()"
     },
     {
@@ -18990,7 +19040,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_pr",
-      "community": 25,
+      "community": 12,
       "norm_label": "pr()"
     },
     {
@@ -19000,7 +19050,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_sh",
-      "community": 25,
+      "community": 12,
       "norm_label": "sh()"
     },
     {
@@ -19010,7 +19060,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ah",
-      "community": 25,
+      "community": 12,
       "norm_label": "ah()"
     },
     {
@@ -19020,7 +19070,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_g",
-      "community": 25,
+      "community": 12,
       "norm_label": "g_()"
     },
     {
@@ -19030,7 +19080,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_y",
-      "community": 25,
+      "community": 12,
       "norm_label": "y_()"
     },
     {
@@ -19040,7 +19090,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_jo",
-      "community": 25,
+      "community": 12,
       "norm_label": "jo()"
     },
     {
@@ -19050,7 +19100,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_dr",
-      "community": 31,
+      "community": 91,
       "norm_label": "dr()"
     },
     {
@@ -19060,7 +19110,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_uo",
-      "community": 30,
+      "community": 12,
       "norm_label": "uo()"
     },
     {
@@ -19080,7 +19130,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_w",
-      "community": 31,
+      "community": 91,
       "norm_label": "w_()"
     },
     {
@@ -19100,7 +19150,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_eh",
-      "community": 9,
+      "community": 12,
       "norm_label": "eh()"
     },
     {
@@ -19110,7 +19160,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "vendor_tailwind_min_oh",
-      "community": 29,
+      "community": 91,
       "norm_label": "oh()"
     },
     {
@@ -19130,7 +19180,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_as",
-      "community": 11,
+      "community": 31,
       "norm_label": "as()"
     },
     {
@@ -19140,7 +19190,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ko",
-      "community": 31,
+      "community": 29,
       "norm_label": "ko()"
     },
     {
@@ -19180,7 +19230,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_lh",
-      "community": 62,
+      "community": 29,
       "norm_label": "lh()"
     },
     {
@@ -19200,7 +19250,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_arbitraryproperty",
-      "community": 29,
+      "community": 91,
       "norm_label": "arbitraryproperty()"
     },
     {
@@ -19220,7 +19270,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_applyvariantoffset",
-      "community": 62,
+      "community": 29,
       "norm_label": "applyvariantoffset()"
     },
     {
@@ -19230,7 +19280,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_applyparalleloffset",
-      "community": 31,
+      "community": 29,
       "norm_label": "applyparalleloffset()"
     },
     {
@@ -19240,7 +19290,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_recordvariants",
-      "community": 11,
+      "community": 41,
       "norm_label": "recordvariants()"
     },
     {
@@ -19250,7 +19300,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_recordvariant",
-      "community": 11,
+      "community": 41,
       "norm_label": "recordvariant()"
     },
     {
@@ -19260,7 +19310,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_compare",
-      "community": 62,
+      "community": 29,
       "norm_label": "compare()"
     },
     {
@@ -19270,7 +19320,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_recalculatevariantoffsets",
-      "community": 62,
+      "community": 31,
       "norm_label": "recalculatevariantoffsets()"
     },
     {
@@ -19280,7 +19330,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_remaparbitraryvariantoffsets",
-      "community": 62,
+      "community": 31,
       "norm_label": "remaparbitraryvariantoffsets()"
     },
     {
@@ -19290,7 +19340,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_sortarbitraryproperties",
-      "community": 62,
+      "community": 31,
       "norm_label": "sortarbitraryproperties()"
     },
     {
@@ -19300,7 +19350,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_sort",
-      "community": 62,
+      "community": 31,
       "norm_label": "sort()"
     },
     {
@@ -19310,7 +19360,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tl",
-      "community": 29,
+      "community": 41,
       "norm_label": "tl()"
     },
     {
@@ -19380,7 +19430,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zh",
-      "community": 52,
+      "community": 29,
       "norm_label": "zh()"
     },
     {
@@ -19460,7 +19510,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ol",
-      "community": 58,
+      "community": 50,
       "norm_label": "ol()"
     },
     {
@@ -19470,7 +19520,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_nm",
-      "community": 52,
+      "community": 29,
       "norm_label": "nm()"
     },
     {
@@ -19490,7 +19540,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ul",
-      "community": 12,
+      "community": 41,
       "norm_label": "ul()"
     },
     {
@@ -19510,7 +19560,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_pm",
-      "community": 12,
+      "community": 41,
       "norm_label": "pm()"
     },
     {
@@ -19520,7 +19570,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_dm",
-      "community": 62,
+      "community": 31,
       "norm_label": "dm()"
     },
     {
@@ -19530,7 +19580,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "vendor_tailwind_min_hm",
-      "community": 62,
+      "community": 31,
       "norm_label": "hm()"
     },
     {
@@ -19600,7 +19650,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_gg",
-      "community": 52,
+      "community": 29,
       "norm_label": "gg()"
     },
     {
@@ -19630,7 +19680,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_p2",
-      "community": 58,
+      "community": 50,
       "norm_label": "p2()"
     },
     {
@@ -19640,7 +19690,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_yg",
-      "community": 12,
+      "community": 41,
       "norm_label": "yg()"
     },
     {
@@ -19650,7 +19700,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_d2",
-      "community": 12,
+      "community": 41,
       "norm_label": "d2()"
     },
     {
@@ -19660,7 +19710,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_h2",
-      "community": 12,
+      "community": 41,
       "norm_label": "h2()"
     },
     {
@@ -19670,7 +19720,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_xg",
-      "community": 58,
+      "community": 50,
       "norm_label": "xg()"
     },
     {
@@ -19690,7 +19740,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_cl",
-      "community": 58,
+      "community": 50,
       "norm_label": "cl()"
     },
     {
@@ -19710,7 +19760,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_v2",
-      "community": 58,
+      "community": 50,
       "norm_label": "v2()"
     },
     {
@@ -19740,7 +19790,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_tg",
-      "community": 37,
+      "community": 30,
       "norm_label": "tg()"
     },
     {
@@ -19750,7 +19800,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ne",
-      "community": 29,
+      "community": 41,
       "norm_label": "ne()"
     },
     {
@@ -19760,7 +19810,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_rl",
-      "community": 29,
+      "community": 41,
       "norm_label": "rl()"
     },
     {
@@ -19780,7 +19830,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_qg",
-      "community": 62,
+      "community": 31,
       "norm_label": "qg()"
     },
     {
@@ -19810,7 +19860,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "vendor_tailwind_min_o2",
-      "community": 8,
+      "community": 12,
       "norm_label": "o2()"
     },
     {
@@ -19820,7 +19870,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "vendor_tailwind_min_t2",
-      "community": 62,
+      "community": 31,
       "norm_label": "t2()"
     },
     {
@@ -19840,7 +19890,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "vendor_tailwind_min_fg",
-      "community": 62,
+      "community": 31,
       "norm_label": "fg()"
     },
     {
@@ -19860,7 +19910,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "vendor_tailwind_min_i2",
-      "community": 58,
+      "community": 50,
       "norm_label": "i2()"
     },
     {
@@ -19870,7 +19920,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "vendor_tailwind_min_q2",
-      "community": 11,
+      "community": 31,
       "norm_label": "q2()"
     },
     {
@@ -19920,7 +19970,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zg",
-      "community": 58,
+      "community": 50,
       "norm_label": "zg()"
     },
     {
@@ -19940,7 +19990,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_zl",
-      "community": 12,
+      "community": 41,
       "norm_label": "zl()"
     },
     {
@@ -19960,7 +20010,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ly",
-      "community": 12,
+      "community": 41,
       "norm_label": "ly()"
     },
     {
@@ -19970,7 +20020,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_uy",
-      "community": 12,
+      "community": 41,
       "norm_label": "uy()"
     },
     {
@@ -19990,7 +20040,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_g2",
-      "community": 12,
+      "community": 41,
       "norm_label": "g2()"
     },
     {
@@ -20000,7 +20050,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "vendor_tailwind_min_k2",
-      "community": 62,
+      "community": 31,
       "norm_label": "k2()"
     },
     {
@@ -20130,7 +20180,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prefixes",
-      "community": 12,
+      "community": 31,
       "norm_label": "prefixes()"
     },
     {
@@ -20140,7 +20190,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_withprefix",
-      "community": 12,
+      "community": 31,
       "norm_label": "withprefix()"
     },
     {
@@ -20150,7 +20200,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prefix",
-      "community": 12,
+      "community": 31,
       "norm_label": "prefix()"
     },
     {
@@ -20170,7 +20220,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_unprefixed",
-      "community": 30,
+      "community": 12,
       "norm_label": "unprefixed()"
     },
     {
@@ -20200,7 +20250,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_load",
-      "community": 8,
+      "community": 9,
       "norm_label": "load()"
     },
     {
@@ -20210,7 +20260,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_parentprefix",
-      "community": 12,
+      "community": 31,
       "norm_label": "parentprefix()"
     },
     {
@@ -20220,7 +20270,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_check",
-      "community": 30,
+      "community": 12,
       "norm_label": "check()"
     },
     {
@@ -20230,7 +20280,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prefixed",
-      "community": 30,
+      "community": 9,
       "norm_label": "prefixed()"
     },
     {
@@ -20240,7 +20290,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "vendor_tailwind_min_otherprefixes",
-      "community": 12,
+      "community": 31,
       "norm_label": "otherprefixes()"
     },
     {
@@ -20280,7 +20330,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "vendor_tailwind_min_restorebefore",
-      "community": 8,
+      "community": 12,
       "norm_label": "restorebefore()"
     },
     {
@@ -20300,7 +20350,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isalready",
-      "community": 8,
+      "community": 12,
       "norm_label": "isalready()"
     },
     {
@@ -20310,7 +20360,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_add",
-      "community": 12,
+      "community": 31,
       "norm_label": "add()"
     },
     {
@@ -20320,7 +20370,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_old",
-      "community": 30,
+      "community": 9,
       "norm_label": "old()"
     },
     {
@@ -20390,7 +20440,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_findprop",
-      "community": 12,
+      "community": 31,
       "norm_label": "findprop()"
     },
     {
@@ -20400,7 +20450,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_already",
-      "community": 12,
+      "community": 31,
       "norm_label": "already()"
     },
     {
@@ -20410,7 +20460,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_checkforwarning",
-      "community": 12,
+      "community": 30,
       "norm_label": "checkforwarning()"
     },
     {
@@ -20430,7 +20480,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_cleanotherprefixes",
-      "community": 12,
+      "community": 31,
       "norm_label": "cleanotherprefixes()"
     },
     {
@@ -20440,7 +20490,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_cleanfromunprefixed",
-      "community": 12,
+      "community": 31,
       "norm_label": "cleanfromunprefixed()"
     },
     {
@@ -20450,7 +20500,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_disabled",
-      "community": 37,
+      "community": 30,
       "norm_label": "disabled()"
     },
     {
@@ -20460,7 +20510,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_rulevendorprefixes",
-      "community": 12,
+      "community": 31,
       "norm_label": "rulevendorprefixes()"
     },
     {
@@ -20470,7 +20520,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_save",
-      "community": 12,
+      "community": 31,
       "norm_label": "save()"
     },
     {
@@ -20480,7 +20530,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_regexp",
-      "community": 30,
+      "community": 9,
       "norm_label": "regexp()"
     },
     {
@@ -20500,7 +20550,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_value",
-      "community": 12,
+      "community": 31,
       "norm_label": "value()"
     },
     {
@@ -20510,7 +20560,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "vendor_tailwind_min_au",
-      "community": 12,
+      "community": 41,
       "norm_label": "au()"
     },
     {
@@ -20530,7 +20580,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "vendor_tailwind_min_disabledvalue",
-      "community": 37,
+      "community": 30,
       "norm_label": "disabledvalue()"
     },
     {
@@ -20540,7 +20590,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "vendor_tailwind_min_disableddecl",
-      "community": 37,
+      "community": 30,
       "norm_label": "disableddecl()"
     },
     {
@@ -20550,7 +20600,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "vendor_tailwind_min_reducespaces",
-      "community": 8,
+      "community": 12,
       "norm_label": "reducespaces()"
     },
     {
@@ -20570,7 +20620,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_gridstatus",
-      "community": 37,
+      "community": 30,
       "norm_label": "gridstatus()"
     },
     {
@@ -20590,7 +20640,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prefixer",
-      "community": 30,
+      "community": 9,
       "norm_label": "prefixer()"
     },
     {
@@ -20600,7 +20650,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_virtual",
-      "community": 30,
+      "community": 9,
       "norm_label": "virtual()"
     },
     {
@@ -20610,7 +20660,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isnot",
-      "community": 30,
+      "community": 12,
       "norm_label": "isnot()"
     },
     {
@@ -20620,7 +20670,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isor",
-      "community": 30,
+      "community": 12,
       "norm_label": "isor()"
     },
     {
@@ -20630,7 +20680,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isprop",
-      "community": 30,
+      "community": 12,
       "norm_label": "isprop()"
     },
     {
@@ -20640,7 +20690,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_ishack",
-      "community": 30,
+      "community": 12,
       "norm_label": "ishack()"
     },
     {
@@ -20650,7 +20700,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_toremove",
-      "community": 30,
+      "community": 12,
       "norm_label": "toremove()"
     },
     {
@@ -20680,7 +20730,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_possible",
-      "community": 12,
+      "community": 9,
       "norm_label": "possible()"
     },
     {
@@ -20690,7 +20740,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_prefixeds",
-      "community": 12,
+      "community": 9,
       "norm_label": "prefixeds()"
     },
     {
@@ -20740,7 +20790,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_m0",
-      "community": 29,
+      "community": 91,
       "norm_label": "m0()"
     },
     {
@@ -20750,7 +20800,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_yu",
-      "community": 29,
+      "community": 91,
       "norm_label": "yu()"
     },
     {
@@ -20770,7 +20820,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_gr",
-      "community": 29,
+      "community": 91,
       "norm_label": "gr()"
     },
     {
@@ -20780,7 +20830,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_replacefirst",
-      "community": 30,
+      "community": 12,
       "norm_label": "replacefirst()"
     },
     {
@@ -20790,7 +20840,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_normalizeunit",
-      "community": 30,
+      "community": 12,
       "norm_label": "normalizeunit()"
     },
     {
@@ -20800,7 +20850,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_newdirection",
-      "community": 9,
+      "community": 75,
       "norm_label": "newdirection()"
     },
     {
@@ -20810,7 +20860,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isradial",
-      "community": 9,
+      "community": 75,
       "norm_label": "isradial()"
     },
     {
@@ -20820,7 +20870,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_convertdirection",
-      "community": 9,
+      "community": 75,
       "norm_label": "convertdirection()"
     },
     {
@@ -20830,7 +20880,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_fixdirection",
-      "community": 9,
+      "community": 75,
       "norm_label": "fixdirection()"
     },
     {
@@ -20840,7 +20890,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_fixangle",
-      "community": 9,
+      "community": 75,
       "norm_label": "fixangle()"
     },
     {
@@ -20850,7 +20900,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_fixradial",
-      "community": 9,
+      "community": 75,
       "norm_label": "fixradial()"
     },
     {
@@ -20860,7 +20910,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_revertdirection",
-      "community": 9,
+      "community": 75,
       "norm_label": "revertdirection()"
     },
     {
@@ -20870,7 +20920,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_roundfloat",
-      "community": 9,
+      "community": 75,
       "norm_label": "roundfloat()"
     },
     {
@@ -20920,7 +20970,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_v0",
-      "community": 30,
+      "community": 9,
       "norm_label": "v0()"
     },
     {
@@ -20930,7 +20980,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_isstretch",
-      "community": 30,
+      "community": 9,
       "norm_label": "isstretch()"
     },
     {
@@ -20940,7 +20990,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_cleaner",
-      "community": 30,
+      "community": 12,
       "norm_label": "cleaner()"
     },
     {
@@ -20950,7 +21000,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_select",
-      "community": 30,
+      "community": 9,
       "norm_label": "select()"
     },
     {
@@ -20960,7 +21010,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_preprocess",
-      "community": 8,
+      "community": 9,
       "norm_label": "preprocess()"
     },
     {
@@ -20970,7 +21020,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "vendor_tailwind_min_group",
-      "community": 8,
+      "community": 12,
       "norm_label": "group()"
     },
     {
@@ -20980,7 +21030,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "vendor_tailwind_min_v5",
-      "community": 31,
+      "community": 91,
       "norm_label": "v5()"
     },
     {
@@ -20990,7 +21040,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "vendor_tailwind_min_h5",
-      "community": 12,
+      "community": 41,
       "norm_label": "h5()"
     },
     {
@@ -21020,7 +21070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "vendor_xlsx_full_min",
-      "community": 29,
+      "community": 91,
       "norm_label": "xlsx.full.min.js"
     },
     {
@@ -21030,7 +21080,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "vendor_xlsx_full_min_make_xlsx_lib",
-      "community": 29,
+      "community": 91,
       "norm_label": "make_xlsx_lib()"
     },
     {
@@ -21471,6 +21521,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "main.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "main",
+      "target": "main_autoupdater"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
       "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -21548,6 +21608,16 @@
       "target": "main_runautobackup"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "main",
+      "target": "main_sendupdatestatus"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
@@ -21609,6 +21679,16 @@
       "confidence_score": 1.0,
       "source": "package",
       "target": "package_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -21778,6 +21858,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "package_build",
+      "target": "package_build_publish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_build",
       "target": "package_build_win"
     },
     {
@@ -21839,6 +21929,16 @@
       "confidence_score": 1.0,
       "source": "package_build_nsis",
       "target": "package_nsis_oneclick"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_electron_updater"
     },
     {
       "relation": "contains",
@@ -79955,9 +80055,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "rules_graphify_graphify",
-      "confidence_score": 1.0
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -79965,9 +80065,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify",
-      "target": "workflows_graphify_workflow_graphify",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_workflow_graphify"
     },
     {
       "relation": "conceptually_related_to",
