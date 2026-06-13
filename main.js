@@ -108,10 +108,12 @@ autoUpdater.on('update-available', (info) => {
 
 autoUpdater.on('update-not-available', (info) => {
   sendUpdateStatus('not-available', info);
+  isManualCheck = false;
 });
 
 autoUpdater.on('error', (err) => {
   sendUpdateStatus('error', err == null ? 'unknown error' : (err.stack || err.message || err).toString());
+  isManualCheck = false;
 });
 
 autoUpdater.on('download-progress', (progressObj) => {
@@ -125,6 +127,7 @@ autoUpdater.on('download-progress', (progressObj) => {
 
 autoUpdater.on('update-downloaded', (info) => {
   sendUpdateStatus('downloaded', info);
+  isManualCheck = false;
 });
 
 function createWindow() {
