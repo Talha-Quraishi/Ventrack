@@ -1,17 +1,17 @@
 {
   "main.js": {
-    "mtime": 1781283392.1929615,
-    "ast_hash": "628f1ba3ac60929ac29f7a24fef46d5a",
+    "mtime": 1781285197.092052,
+    "ast_hash": "10887ae801771d2af8011db563282e89",
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1781283386.888189,
-    "ast_hash": "4b1c7f33ecee3ca1877974dba7b64c8b",
+    "mtime": 1781372206.4871354,
+    "ast_hash": "9ee06b7d0ef0d19f111bd0c18e610874",
     "semantic_hash": ""
   },
   "preload.js": {
-    "mtime": 1781283394.6573522,
-    "ast_hash": "8122ed48a78a57223626826a352e03ef",
+    "mtime": 1781284897.8044949,
+    "ast_hash": "6dd5ce6673ba296b4726fcdcaf6821a5",
     "semantic_hash": ""
   },
   "vendor-tracker-backup.json": {
@@ -65,8 +65,8 @@
     "semantic_hash": "637776aa6f7496d069afe7520c845c8a"
   },
   "vendor_tracker_native.html": {
-    "mtime": 1781283411.0294967,
-    "ast_hash": "d5b4e60fa0007b0dc24ac5a6e94122c0",
+    "mtime": 1781372443.8570492,
+    "ast_hash": "ae3137ab0d205bc91b1ffa11e6f164a5",
     "semantic_hash": ""
   },
   "ventrack_logo.png": {

@@ -1,7 +1,7 @@
 {
   "name": "ventrack",
   "productName": "Ventrack",
-  "version": "20.17.5",
+  "version": "20.17.6",
   "description": "Offline-first vendor order tracking application (Ventrack).",
   "main": "main.js",
   "scripts": {

@@ -1,18 +1,18 @@
 {
   "main.js": {
-    "mtime": 1781027554.0323548,
-    "ast_hash": "9d5bd077a6a715f73dfa8c2e39c856a4",
-    "semantic_hash": "9d5bd077a6a715f73dfa8c2e39c856a4"
+    "mtime": 1781284914.007985,
+    "ast_hash": "a234c13e840beadc991b36d0b7882882",
+    "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1781194718.2197063,
-    "ast_hash": "c7ff4c1ad8f312ee237a6c4cd50e8890",
-    "semantic_hash": "c7ff4c1ad8f312ee237a6c4cd50e8890"
+    "mtime": 1781284734.1363337,
+    "ast_hash": "429197a4cc8d27eca93f481b3aee6fb6",
+    "semantic_hash": ""
   },
   "preload.js": {
-    "mtime": 1781027556.758865,
-    "ast_hash": "00de585c45bcb049564768342eb086ea",
-    "semantic_hash": "00de585c45bcb049564768342eb086ea"
+    "mtime": 1781284897.8044949,
+    "ast_hash": "6dd5ce6673ba296b4726fcdcaf6821a5",
+    "semantic_hash": ""
   },
   "vendor-tracker-backup.json": {
     "mtime": 1780934497.7112503,
@@ -65,8 +65,8 @@
     "semantic_hash": "637776aa6f7496d069afe7520c845c8a"
   },
   "vendor_tracker_native.html": {
-    "mtime": 1781281732.9081392,
-    "ast_hash": "25e3d4ac083828e2fd7016f424fadd10",
+    "mtime": 1781284930.1374483,
+    "ast_hash": "9fd78c0fbd4886983628ef3ee5ce8d52",
     "semantic_hash": ""
   },
   "ventrack_logo.png": {
@@ -78,5 +78,15 @@
     "mtime": 1781028822.9465551,
     "ast_hash": "0e17f14c3519cbdda2edf9a0cb6463d2",
     "semantic_hash": "0e17f14c3519cbdda2edf9a0cb6463d2"
+  },
+  "backups/backup_2026-06-12.json": {
+    "mtime": 1781283038.6955416,
+    "ast_hash": "5f40ecda40fdc9f3d01b76c93aac7f04",
+    "semantic_hash": ""
+  },
+  "vendor-tracker-data.json": {
+    "mtime": 1781283038.694542,
+    "ast_hash": "5f40ecda40fdc9f3d01b76c93aac7f04",
+    "semantic_hash": ""
   }
 }
