@@ -9,7 +9,7 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "author": "Talha",
+  "author": "Talha-Quraishi",
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
